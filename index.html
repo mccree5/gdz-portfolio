@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mason McCree | Creative Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Creative Portfolio</p>
+        <h1>Mason McCree</h1>
+        <p class="subtitle">
+          Tech + design work for KSBCSP and collaborative campus projects.
+          Focused on branding, event graphics, social media visuals, and editing.
+        </p>
+      </div>
+
+      <div class="hero-art">
+        <img
+          src="images/ksbcsp_stickers_v1.svg"
+          alt="KSBCSP sticker and icon set created in Inkscape"
+          class="sticker-strip"
+        />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about card">
+      <h2>About</h2>
+      <p>
+        I create promotional graphics and visual content for my college organization, where I serve on the officer board.
+        My work includes event posters, thumbnails, social media graphics, and branding-style assets for tech-club communications.
+        I use Inkscape for vector design, GIMP for image editing/compositing, and CapCut/DaVinci Resolve for video editing.
+      </p>
+    </section>
+
+    <section class="portfolio">
+      <div class="section-accent">
+        <img
+          src="images/ksbcsp_stickers_v1.svg"
+          alt="KSBCSP icon set accent"
+          class="section-stickers"
+        />
+      </div>
+
+      <div class="portfolio-header">
+        <h2>Portfolio</h2>
+        <p>Browse by category</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Portfolio categories">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="inkscape">Inkscape</button>
+        <button class="tab" data-filter="gimp">GIMP</button>
+        <button class="tab" data-filter="video">Video Promotion | Editing</button>
+        <button class="tab" data-filter="experimental">Experimental</button>
+      </div>
+
+      <div class="grid" id="portfolioGrid">
+        <!-- Inkscape -->
+        <article class="card project" data-category="inkscape">
+          <div class="thumb">
+            <img src="images/mason_logo_v2.svg" alt="Vector lightning logo design created in Inkscape" />
+          </div>
+          <div class="project-body">
+            <h3>Lightning Logo / Club Branding Mark</h3>
+            <p class="meta">Inkscape | Logo Design</p>
+            <p>
+              Created a polished vector logo concept with a bold lightning symbol and clean wordmark styling,
+              focused on contrast, scalability, and club branding use.
+            </p>
+          </div>
+        </article>
+
+        <article class="card project" data-category="inkscape">
+          <div class="thumb">
+            <img src="images/ksbcsp_stickers_v1.svg" alt="KSBCSP sticker and icon mini pack created in Inkscape" />
+          </div>
+          <div class="project-body">
+            <h3>KSBCSP Sticker / Icon Mini Pack</h3>
+            <p class="meta">Inkscape | Icon System</p>
+            <p>
+              Designed a matching set of vector stickers/icons to support club branding across social media,
+              presentations, and portfolio visuals.
+            </p>
+          </div>
+        </article>
+
+        <article class="card project" data-category="inkscape">
+          <div class="thumb">
+            <img src="images/ksbcsp_spotlight_template.svg" alt="KSBCSP member spotlight template created in Inkscape" />
+          </div>
+          <div class="project-body">
+            <h3>KSBCSP Member Spotlight Template</h3>
+            <p class="meta">Inkscape | Template Design</p>
+            <p>
+              Built a reusable spotlight layout for officer/member features with structured text areas,
+              visual hierarchy, and a consistent branded style.
+            </p>
+          </div>
+        </article>
+
+        <article class="card project" data-category="inkscape">
+          <div class="thumb">
+            <img src="images/ksbcsp_brandguide_inkscape_v1.svg" alt="KSBCSP mini brand guide sheet created in Inkscape" />
+          </div>
+          <div class="project-body">
+            <h3>KSBCSP Mini Brand Guide</h3>
+            <p class="meta">Inkscape | Brand System</p>
+            <p>
+              Organized logo applications and visual identity elements into a brand guide-style layout to show
+              consistency, system thinking, and real-world club design usage.
+            </p>
+          </div>
+        </article>
+
+        <!-- GIMP -->
+        <article class="card project" data-category="gimp">
+          <div class="thumb">
+            <img src="images/ksbcsp_gamenight_promo.png" alt="KSBCSP Tech x Design Game Night promotional graphic in GIMP" />
+          </div>
+          <div class="project-body">
+            <h3>KSBCSP Tech x Design Game Night Promo</h3>
+            <p class="meta">GIMP | Event Promotion Graphic</p>
+            <p>
+              Created a neon-styled promotional graphic for a campus game night using compositing, glow effects,
+              layered visual accents, and strong typography hierarchy.
+            </p>
+          </div>
+        </article>
+
+<article class="card project" data-category="gimp">
+  <div class="thumb contain">
+    <img src="images/ykb_ad_preview.png" alt="YKB promotional ad concept graphic created in GIMP" />
+  </div>
+  <div class="project-body">
+    <h3>YKB App Promo Ad Concept</h3>
+    <p class="meta">GIMP | Ad Creative / Marketing Visual</p>
+    <p>
+      Designed a high-energy promotional ad mockup for YKB with bold headlines, app-focused layout,
+      layered lighting effects, and performance-driven visual storytelling.
+    </p>
+  </div>
+</article>
+
+        <!-- Video -->
+   <!-- Video -->
+<article class="card project" data-category="video">
+  <div class="thumb video-thumb">
+    <span class="play-icon">▶</span>
+    <span class="video-label">YKB TikTok Promo</span>
+  </div>
+  <div class="project-body">
+    <h3>YKB Sports App TikTok Promo</h3>
+    <p class="meta">CapCut | Short-Form Video Promotion</p>
+    <p>
+      Created TikTok promotional video content for the YKB sports app as part of a broader creative campaign.
+      Focused on hook-driven editing, pacing, and platform-friendly visuals to support engagement and app promotion.
+    </p>
+    <p>
+      <a href="https://www.tiktok.com/@mccreeknowsball/video/7564566298504580407" target="_blank" rel="noopener noreferrer">Watch YKB Promo on TikTok</a>
+    </p>
+  </div>
+</article>
+
+<article class="card project" data-category="video">
+  <div class="thumb video-thumb">
+    <span class="play-icon">▶</span>
+    <span class="video-label">Yubo TikTok Ad Edit</span>
+  </div>
+  <div class="project-body">
+    <h3>Yubo TikTok Promo / Ad Edit</h3>
+    <p class="meta">CapCut | Short-Form Video Editing</p>
+    <p>
+      Edited short-form promotional content for Yubo with a focus on attention-grabbing openings,
+      visual pacing, and clear call-to-action structure for social media performance.
+    </p>
+    <p>
+      <a href="https://www.tiktok.com/@mccree.1400/video/7322208154484346154" target="_blank" rel="noopener noreferrer">Watch Yubo Promo on TikTok</a>
+    </p>
+  </div>
+</article>
+
+        <!-- Experimental (optional) -->
+        <article class="card project" data-category="experimental">
+          <div class="thumb">
+            <img src="images\coin_anim.gif" alt="Pixel coin animation loop" />
+          </div>
+          <div class="project-body">
+            <h3>Pixel Coin Animation Loop</h3>
+            <p class="meta">Experimental | Pixel Animation</p>
+            <p>
+              Created a simple animated coin loop to practice pixel animation timing, readability,
+              and clean frame-to-frame motion.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="card brand-accent-card">
+      <h2>Brand Visual System</h2>
+      <p>
+        Custom KSBCSP sticker/icon set created in Inkscape and used across portfolio branding,
+        section accents, and club-style visual identity examples.
+      </p>
+      <img
+        src="images/ksbcsp_brandguide_inkscape_v1.svg"
+        alt="KSBCSP sticker icon set"
+        class="footer-sticker-strip"
+      />
+    </section>
+
+    <section class="contact card">
+      <h2>Contact</h2>
+      <p>Email: mmccree5@students.kennesaw.edu</p>
+      <p>LinkedIn: https://www.linkedin.com/in/masonmccree/</p>
+      <p>GitHub / Portfolio links: add here</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

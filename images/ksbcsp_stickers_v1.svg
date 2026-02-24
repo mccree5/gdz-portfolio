@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   id="ksbcsp_sticker_set"
+   version="1.1"
+   inkscape:version="1.3"
+   sodipodi:docname="ksbcsp_stickers_v1.svg"
+   width="1400"
+   height="320"
+   viewBox="0 0 1400 320">
+
+  <!--
+    ═══════════════════════════════════════════════════════════
+    KSBCSP × Design Team — Sticker / Icon Set v1.0
+    5 stickers · Hexagonal tiles · Die-cut ready
+    ─────────────────────────────────────────────────────────
+    PALETTE
+      #060D1A  Deep Navy    (badge / bg)
+      #0C1628  Navy Mid     (shadow / depth)
+      #00C4E8  Electric Cyan (primary accent)
+      #F0A500  Amber Gold   (secondary accent)
+      #FAFAF7  Warm Paper   (light surfaces)
+      #FFFFFF  Pure White   (sticker bleed border)
+    ─────────────────────────────────────────────────────────
+    STYLE SYSTEM
+      • Tile shape: regular hexagon, flat-top, 140×162 px bounding box
+      • White sticker bleed: 10 px outset from tile edge (filter method)
+      • Stroke weight: 5 px (icons) · 3.5 px (detail lines)
+      • Stroke joins: round  Caps: round
+      • Color logic: Navy bg → Cyan primary → Amber accent → White detail
+      • Each sticker is a self-contained <g> — copy any group to reuse
+    ─────────────────────────────────────────────────────────
+    STICKERS
+      01 · Code Brackets  { }   Coding theme
+      02 · Lightning Bolt ⚡    Brand identity / energy
+      03 · Pen Nib        ✒     Design / creativity
+      04 · Node Network   ◉—◉   Collaboration / networking
+      05 · Laptop + Cloud ⌨☁    Cloud computing / tech
+    ─────────────────────────────────────────────────────────
+    INKSCAPE EDITING
+      • Each sticker = one named layer group (lyr_s1 … lyr_s5)
+      • White bleed = feMorphology filter on the hex tile shape
+      • To extract a single sticker: select its group, File → Export PNG
+      • To resize: scale the group uniformly (Ctrl+Shift+M)
+      • Recommended export sizes:
+          Discord avatar   128×128 px
+          Laptop sticker   300×300 px / 75mm physical
+          Merch print      600×600 px / 150mm physical
+    ═══════════════════════════════════════════════════════════
+  -->
+
+  <title>KSBCSP Sticker / Icon Set v1.0</title>
+
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#D0CCC4"
+     bordercolor="#00C4E8"
+     borderopacity="0.25"
+     inkscape:pageopacity="1"
+     inkscape:document-units="px"
+     showgrid="false"/>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SHARED DEFS
+  ═══════════════════════════════════════════════════════ -->
+  <defs id="shared_defs">
+
+    <!-- ── Sticker bleed filter: dilates the tile shape to create white halo ── -->
+    <!-- Applied to a clone of the hex tile filled white, placed behind the real tile -->
+    <!-- We use a simpler approach: explicit white hex slightly larger than tile hex -->
+
+    <!-- ── Bolt gradient (shared by S1 spark + S2 full bolt) ── -->
+    <linearGradient id="grad_bolt" x1="0.6" y1="0" x2="0.3" y2="1">
+      <stop offset="0%"   stop-color="#FFE84D"/>
+      <stop offset="55%"  stop-color="#F0A500"/>
+      <stop offset="100%" stop-color="#E06800"/>
+    </linearGradient>
+
+    <!-- ── Cyan glow filter ── -->
+    <filter id="flt_cyan_glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- ── Amber glow ── -->
+    <filter id="flt_amber_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- ── Soft drop shadow for sticker depth ── -->
+    <filter id="flt_sticker_shadow" x="-12%" y="-8%" width="124%" height="128%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8"
+                    flood-color="#060D1A" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- ── Hex tile clipPath (flat-top, centred 0,0, r=74) ── -->
+    <!-- Points for flat-top hex radius 74: angles 0°,60°,120°,180°,240°,300° -->
+    <!-- x=r*cos(θ), y=r*sin(θ); flat-top = rotate 30° → use pointy-top formula rotated -->
+    <!-- Flat-top hex: vertices at (±r, 0), (±r/2, ±r√3/2) -->
+    <!-- r=74: (74,0),(37,64.1),(-37,64.1),(-74,0),(-37,-64.1),(37,-64.1) -->
+    <clipPath id="clip_hex">
+      <polygon points="74,0 37,64 -37,64 -74,0 -37,-64 37,-64"/>
+    </clipPath>
+
+    <!-- ── Hex tile for S1 (offset to sticker centre) ── -->
+    <!-- Each sticker centre: S1=160, S2=440, S3=720, S4=1000, S5=1280  y=160 -->
+
+  </defs>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STICKER CANVAS BACKGROUND (visible pasteboard context)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="1400" height="320" style="fill:#D0CCC4;stroke:none"/>
+
+  <!-- Row label -->
+  <text x="700" y="308" text-anchor="middle"
+        style="font-family:'Courier New',monospace;font-size:10px;fill:rgba(13,15,20,0.28);letter-spacing:3px;text-transform:uppercase">KSBCSP STICKER SET v1.0 · 5 ICONS · DIE-CUT READY</text>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STICKER 01 · CODE BRACKETS { }
+       Theme: Coding · Colour: Navy bg, Cyan brackets, Amber spark
+       Centre: (160, 155)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <g id="sticker_01_code_brackets"
+     inkscape:label="S01 · Code Brackets"
+     transform="translate(160,155)"
+     filter="url(#flt_sticker_shadow)">
+
+    <!-- White bleed ring (hex 12px larger than tile) -->
+    <polygon id="s1_bleed"
+             points="86,0 43,74.5 -43,74.5 -86,0 -43,-74.5 43,-74.5"
+             style="fill:#FFFFFF;stroke:none"/>
+
+    <!-- Navy tile base -->
+    <polygon id="s1_tile"
+             points="74,0 37,64 -37,64 -74,0 -37,-64 37,-64"
+             style="fill:#060D1A;stroke:none"/>
+
+    <!-- Inner subtle hex ring (navy mid) -->
+    <polygon points="65,0 32.5,56 -32.5,56 -65,0 -32.5,-56 32.5,-56"
+             style="fill:none;stroke:#0C1628;stroke-width:1.5;stroke-opacity:0.6"/>
+
+    <!-- { LEFT BRACKET -->
+    <!-- Arm top vertical -->
+    <line x1="-22" y1="-42" x2="-22" y2="-20"
+          style="stroke:#00C4E8;stroke-width:5;stroke-linecap:round"/>
+    <!-- Top curve knuckle -->
+    <path d="M -22,-20 Q -36,-20 -36,-8"
+          style="fill:none;stroke:#00C4E8;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"/>
+    <!-- Middle spine — left point of bracket -->
+    <line x1="-36" y1="-8" x2="-36" y2="8"
+          style="stroke:#00C4E8;stroke-width:5;stroke-linecap:round"/>
+    <!-- Bottom curve knuckle -->
+    <path d="M -36,8 Q -36,20 -22,20"
+          style="fill:none;stroke:#00C4E8;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"/>
+    <!-- Arm bottom vertical -->
+    <line x1="-22" y1="20" x2="-22" y2="42"
+          style="stroke:#00C4E8;stroke-width:5;stroke-linecap:round"/>
+
+    <!-- } RIGHT BRACKET -->
+    <line x1="22" y1="-42" x2="22" y2="-20"
+          style="stroke:#00C4E8;stroke-width:5;stroke-linecap:round"/>
+    <path d="M 22,-20 Q 36,-20 36,-8"
+          style="fill:none;stroke:#00C4E8;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="36" y1="-8" x2="36" y2="8"
+          style="stroke:#00C4E8;stroke-width:5;stroke-linecap:round"/>
+    <path d="M 36,8 Q 36,20 22,20"
+          style="fill:none;stroke:#00C4E8;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"/>
+    <line x1="22" y1="20" x2="22" y2="42"
+          style="stroke:#00C4E8;stroke-width:5;stroke-linecap:round"/>
+
+    <!-- Centre spark / bolt (amber, small) -->
+    <polygon id="s1_spark"
+             points="0,-16 -7,2 -1,2 -3,18 8,0 2,0"
+             style="fill:url(#grad_bolt);filter:url(#flt_amber_glow)"/>
+
+    <!-- Dot accent below bolt (like a semicolon hint) -->
+    <circle cx="0" cy="27" r="3.5" style="fill:#F0A500;fill-opacity:0.7"/>
+
+    <!-- Icon label -->
+    <text x="0" y="82" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(13,15,20,0.35);letter-spacing:2.5px">CODE</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STICKER 02 · LIGHTNING BOLT
+       Theme: Brand / Energy · Amber bolt, Cyan glow, Navy bg
+       Centre: (440, 155)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <g id="sticker_02_lightning_bolt"
+     inkscape:label="S02 · Lightning Bolt"
+     transform="translate(440,155)"
+     filter="url(#flt_sticker_shadow)">
+
+    <!-- White bleed -->
+    <polygon points="86,0 43,74.5 -43,74.5 -86,0 -43,-74.5 43,-74.5"
+             style="fill:#FFFFFF;stroke:none"/>
+
+    <!-- Navy tile -->
+    <polygon points="74,0 37,64 -37,64 -74,0 -37,-64 37,-64"
+             style="fill:#060D1A;stroke:none"/>
+
+    <!-- Inner ring -->
+    <polygon points="65,0 32.5,56 -32.5,56 -65,0 -32.5,-56 32.5,-56"
+             style="fill:none;stroke:#0C1628;stroke-width:1.5;stroke-opacity:0.6"/>
+
+    <!-- Glow layer (amber, dilated, blurred) -->
+    <polygon id="s2_bolt_glow"
+             points="8,-50 -18,8 -4,8 -10,52 22,4 6,4"
+             style="fill:#F0A500;fill-opacity:0.35;filter:url(#flt_amber_glow)"
+             transform="scale(1.25)"/>
+
+    <!-- Main bolt body -->
+    <polygon id="s2_bolt_main"
+             points="8,-50 -18,8 -4,8 -10,52 22,4 6,4"
+             style="fill:url(#grad_bolt);stroke:none"/>
+
+    <!-- Bolt highlight facet (tip brightening) -->
+    <polygon points="8,-50 -2,-22 2,-22"
+             style="fill:#FFF5CC;fill-opacity:0.55"/>
+
+    <!-- Echo / shadow shape (navy mid, slight offset) -->
+    <polygon points="10,-47 -16,10 -2,10 -8,54 24,6 8,6"
+             style="fill:#192540;fill-opacity:0.55"
+             transform="translate(3,3)"/>
+
+    <!-- Top tick -->
+    <line x1="0" y1="-60" x2="0" y2="-52"
+          style="stroke:#F0A500;stroke-width:3;stroke-linecap:square;stroke-opacity:0.6"/>
+    <!-- Bottom tick -->
+    <line x1="0" y1="52" x2="0" y2="60"
+          style="stroke:#F0A500;stroke-width:3;stroke-linecap:square;stroke-opacity:0.6"/>
+
+    <!-- Cyan speed lines (left of bolt) -->
+    <line x1="-42" y1="-14" x2="-26" y2="-14"
+          style="stroke:#00C4E8;stroke-width:3;stroke-linecap:round;stroke-opacity:0.65"/>
+    <line x1="-38" y1="0" x2="-26" y2="0"
+          style="stroke:#00C4E8;stroke-width:3;stroke-linecap:round;stroke-opacity:0.45"/>
+    <line x1="-34" y1="14" x2="-26" y2="14"
+          style="stroke:#00C4E8;stroke-width:3;stroke-linecap:round;stroke-opacity:0.28"/>
+
+    <text x="0" y="82" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(13,15,20,0.35);letter-spacing:2.5px">ENERGY</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STICKER 03 · PEN NIB
+       Theme: Design / Creativity · Amber nib, Cyan ink drop, Navy bg
+       Centre: (720, 155)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <g id="sticker_03_pen_nib"
+     inkscape:label="S03 · Pen Nib"
+     transform="translate(720,155)"
+     filter="url(#flt_sticker_shadow)">
+
+    <!-- White bleed -->
+    <polygon points="86,0 43,74.5 -43,74.5 -86,0 -43,-74.5 43,-74.5"
+             style="fill:#FFFFFF;stroke:none"/>
+
+    <!-- Navy tile -->
+    <polygon points="74,0 37,64 -37,64 -74,0 -37,-64 37,-64"
+             style="fill:#060D1A;stroke:none"/>
+
+    <!-- Inner ring -->
+    <polygon points="65,0 32.5,56 -32.5,56 -65,0 -32.5,-56 32.5,-56"
+             style="fill:none;stroke:#0C1628;stroke-width:1.5;stroke-opacity:0.6"/>
+
+    <!-- NIB GEOMETRY (pointing downward-right at ~45°) -->
+    <!-- The nib is geometric: a diamond head + ferrule body + taper -->
+
+    <!-- Ferrule (upper body rectangle, rotated 45°) -->
+    <rect x="-22" y="-48" width="24" height="34" rx="4" ry="4"
+          style="fill:#F0A500;stroke:none"
+          transform="rotate(-45,0,0) translate(-8,-42)"/>
+
+    <!-- Split line down ferrule centre -->
+    <line x1="-18" y1="-42" x2="2" y2="-22"
+          style="stroke:#060D1A;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.6"/>
+
+    <!-- Nib left facet -->
+    <polygon id="s3_nib_left"
+             points="-18,-22 0,28 0,8"
+             style="fill:#F0A500;stroke:#F0A500;stroke-width:1"/>
+    <!-- Nib right facet (slightly darker tint) -->
+    <polygon id="s3_nib_right"
+             points="2,-20 0,28 0,8"
+             style="fill:#E08A00;stroke:#E08A00;stroke-width:1"/>
+
+    <!-- Nib centre slit (ink channel) -->
+    <line x1="0" y1="-2" x2="0" y2="28"
+          style="stroke:#060D1A;stroke-width:2;stroke-linecap:round;stroke-opacity:0.6"/>
+
+    <!-- Shoulder line (where nib meets body) -->
+    <line x1="-18" y1="-22" x2="2" y2="-20"
+          style="stroke:#060D1A;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.5"/>
+
+    <!-- Ink drop at nib tip -->
+    <ellipse cx="0" cy="36" rx="6" ry="9"
+             style="fill:#00C4E8;filter:url(#flt_cyan_glow)"/>
+    <!-- Drop shine -->
+    <ellipse cx="-2" cy="33" rx="2" ry="2.5"
+             style="fill:#FFFFFF;fill-opacity:0.45"/>
+
+    <!-- Pen cap (top-left of nib body, diagonal) -->
+    <rect x="-10" y="-62" width="20" height="18" rx="3" ry="3"
+          style="fill:#0C1628;stroke:#00C4E8;stroke-width:2.5;stroke-opacity:0.6"
+          transform="rotate(-45,0,0) translate(-9,-60)"/>
+
+    <!-- Clip detail line on cap -->
+    <line x1="-30" y1="-50" x2="-24" y2="-44"
+          style="stroke:#00C4E8;stroke-width:2;stroke-linecap:round;stroke-opacity:0.45"/>
+
+    <text x="0" y="82" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(13,15,20,0.35);letter-spacing:2.5px">DESIGN</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STICKER 04 · NODE NETWORK
+       Theme: Collaboration / Networking · Cyan nodes, Amber edges, Navy bg
+       Centre: (1000, 155)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <g id="sticker_04_node_network"
+     inkscape:label="S04 · Node Network"
+     transform="translate(1000,155)"
+     filter="url(#flt_sticker_shadow)">
+
+    <!-- White bleed -->
+    <polygon points="86,0 43,74.5 -43,74.5 -86,0 -43,-74.5 43,-74.5"
+             style="fill:#FFFFFF;stroke:none"/>
+
+    <!-- Navy tile -->
+    <polygon points="74,0 37,64 -37,64 -74,0 -37,-64 37,-64"
+             style="fill:#060D1A;stroke:none"/>
+
+    <!-- Inner ring -->
+    <polygon points="65,0 32.5,56 -32.5,56 -65,0 -32.5,-56 32.5,-56"
+             style="fill:none;stroke:#0C1628;stroke-width:1.5;stroke-opacity:0.6"/>
+
+    <!-- NODE POSITIONS -->
+    <!-- Top-centre node A: (0, -36) -->
+    <!-- Bottom-left node B: (-34, 22) -->
+    <!-- Bottom-right node C: (34, 22) -->
+    <!-- Hub centre node D: (0, -4) — smaller, amber -->
+
+    <!-- EDGE LINES (amber, behind nodes) -->
+    <!-- A → D -->
+    <line x1="0" y1="-36" x2="0" y2="-4"
+          style="stroke:#F0A500;stroke-width:3.5;stroke-linecap:round;stroke-opacity:0.75"/>
+    <!-- D → B -->
+    <line x1="0" y1="-4" x2="-34" y2="22"
+          style="stroke:#F0A500;stroke-width:3.5;stroke-linecap:round;stroke-opacity:0.75"/>
+    <!-- D → C -->
+    <line x1="0" y1="-4" x2="34" y2="22"
+          style="stroke:#F0A500;stroke-width:3.5;stroke-linecap:round;stroke-opacity:0.75"/>
+    <!-- B → C (base edge, slightly dimmer) -->
+    <line x1="-34" y1="22" x2="34" y2="22"
+          style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.42"/>
+    <!-- A → B / A → C diagonals (ghost) -->
+    <line x1="0" y1="-36" x2="-34" y2="22"
+          style="stroke:#00C4E8;stroke-width:1.5;stroke-linecap:round;stroke-opacity:0.22"/>
+    <line x1="0" y1="-36" x2="34" y2="22"
+          style="stroke:#00C4E8;stroke-width:1.5;stroke-linecap:round;stroke-opacity:0.22"/>
+
+    <!-- NODE A: top (hexagonal, cyan) -->
+    <polygon points="0,-50 11,-44 11,-28 0,-22 -11,-28 -11,-44"
+             style="fill:#00C4E8;stroke:#FAFAF7;stroke-width:3;filter:url(#flt_cyan_glow)"/>
+    <polygon points="0,-47 8,-42 8,-30 0,-25 -8,-30 -8,-42"
+             style="fill:none;stroke:#FAFAF7;stroke-width:1;stroke-opacity:0.35"/>
+
+    <!-- NODE B: bottom-left (hexagonal, cyan) -->
+    <polygon points="-34,8 -23,14 -23,30 -34,36 -45,30 -45,14"
+             style="fill:#00C4E8;stroke:#FAFAF7;stroke-width:3;filter:url(#flt_cyan_glow)"/>
+    <polygon points="-34,11 -26,16 -26,28 -34,33 -42,28 -42,16"
+             style="fill:none;stroke:#FAFAF7;stroke-width:1;stroke-opacity:0.35"/>
+
+    <!-- NODE C: bottom-right (hexagonal, cyan) -->
+    <polygon points="34,8 45,14 45,30 34,36 23,30 23,14"
+             style="fill:#00C4E8;stroke:#FAFAF7;stroke-width:3;filter:url(#flt_cyan_glow)"/>
+    <polygon points="34,11 42,16 42,28 34,33 26,28 26,16"
+             style="fill:none;stroke:#FAFAF7;stroke-width:1;stroke-opacity:0.35"/>
+
+    <!-- HUB D: centre (amber diamond, slightly pulsing) -->
+    <polygon points="0,-16 10,-4 0,8 -10,-4"
+             style="fill:#F0A500;stroke:#FFE84D;stroke-width:2.5;filter:url(#flt_amber_glow)"/>
+
+    <!-- Data packet dots on edges (small amber circles) -->
+    <circle cx="-17" cy="9" r="3.5" style="fill:#F0A500;fill-opacity:0.6"/>
+    <circle cx="17" cy="9" r="3.5" style="fill:#F0A500;fill-opacity:0.6"/>
+    <circle cx="0" cy="-20" r="3.5" style="fill:#F0A500;fill-opacity:0.6"/>
+
+    <text x="0" y="82" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(13,15,20,0.35);letter-spacing:2.5px">COLLAB</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STICKER 05 · LAPTOP + CLOUD
+       Theme: Cloud Computing / Tech · Navy laptop, Cyan cloud, Amber beam
+       Centre: (1280, 155)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <g id="sticker_05_laptop_cloud"
+     inkscape:label="S05 · Laptop + Cloud"
+     transform="translate(1280,155)"
+     filter="url(#flt_sticker_shadow)">
+
+    <!-- White bleed -->
+    <polygon points="86,0 43,74.5 -43,74.5 -86,0 -43,-74.5 43,-74.5"
+             style="fill:#FFFFFF;stroke:none"/>
+
+    <!-- Navy tile -->
+    <polygon points="74,0 37,64 -37,64 -74,0 -37,-64 37,-64"
+             style="fill:#060D1A;stroke:none"/>
+
+    <!-- Inner ring -->
+    <polygon points="65,0 32.5,56 -32.5,56 -65,0 -32.5,-56 32.5,-56"
+             style="fill:none;stroke:#0C1628;stroke-width:1.5;stroke-opacity:0.6"/>
+
+    <!-- LAPTOP BODY -->
+    <!-- Screen (slightly reclined) -->
+    <rect x="-36" y="-10" width="72" height="46" rx="5" ry="5"
+          style="fill:#0C1628;stroke:#00C4E8;stroke-width:4.5;stroke-linejoin:round"/>
+
+    <!-- Screen bezel / inner screen area -->
+    <rect x="-29" y="-4" width="58" height="34" rx="3" ry="3"
+          style="fill:#060D1A;stroke:none"/>
+
+    <!-- Base / keyboard area -->
+    <path d="M -42,36 Q -42,44 -36,44 L 36,44 Q 42,44 42,36 L 36,36 L -36,36 Z"
+          style="fill:#0C1628;stroke:#00C4E8;stroke-width:4;stroke-linejoin:round"/>
+
+    <!-- Hinge line -->
+    <line x1="-36" y1="36" x2="36" y2="36"
+          style="stroke:#00C4E8;stroke-width:2;stroke-opacity:0.3"/>
+
+    <!-- Keyboard rows (3 amber lines on base) -->
+    <line x1="-28" y1="38.5" x2="-8"  y2="38.5"
+          style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.55"/>
+    <line x1="-4"  y1="38.5" x2="14"  y2="38.5"
+          style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.55"/>
+    <line x1="18"  y1="38.5" x2="28"  y2="38.5"
+          style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.55"/>
+    <line x1="-24" y1="42" x2="24" y2="42"
+          style="stroke:#F0A500;stroke-width:2;stroke-linecap:round;stroke-opacity:0.3"/>
+
+    <!-- CLOUD (rising from screen top) -->
+    <!-- Glow -->
+    <ellipse cx="0" cy="-28" rx="26" ry="14"
+             style="fill:#00C4E8;fill-opacity:0.18;filter:url(#flt_cyan_glow)"/>
+
+    <!-- Cloud body path (flat-bottom cloud) -->
+    <path id="s5_cloud"
+          d="M -20,-16
+             Q -22,-30 -12,-34
+             Q -8,-44 2,-42
+             Q 8,-52 18,-46
+             Q 28,-44 26,-34
+             Q 34,-32 30,-22
+             Q 28,-14 18,-14
+             L -14,-14
+             Q -20,-14 -20,-16 Z"
+          style="fill:#00C4E8;stroke:#FAFAF7;stroke-width:3.5;stroke-linejoin:round;filter:url(#flt_cyan_glow)"/>
+
+    <!-- Cloud highlight ridge (top arc, white) -->
+    <path d="M -10,-38 Q 4,-46 16,-40"
+          style="fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-opacity:0.35"/>
+
+    <!-- Upload beam (amber dashed line from screen up into cloud) -->
+    <line x1="0" y1="-14" x2="0" y2="-6"
+          style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:4,4;stroke-opacity:0.75"/>
+
+    <!-- Beam arrow head (pointing up) -->
+    <polygon points="0,-19 -4,-11 4,-11"
+             style="fill:#F0A500;fill-opacity:0.8"/>
+
+    <!-- Screen code lines (inside bezel, cyan) -->
+    <line x1="-24" y1="4"  x2="-4"  y2="4"
+          style="stroke:#00C4E8;stroke-width:2;stroke-linecap:round;stroke-opacity:0.4"/>
+    <line x1="-24" y1="10" x2="12"  y2="10"
+          style="stroke:#00C4E8;stroke-width:2;stroke-linecap:round;stroke-opacity:0.3"/>
+    <line x1="-24" y1="16" x2="2"   y2="16"
+          style="stroke:#00C4E8;stroke-width:2;stroke-linecap:round;stroke-opacity:0.25"/>
+    <line x1="-24" y1="22" x2="18"  y2="22"
+          style="stroke:#00C4E8;stroke-width:2;stroke-linecap:round;stroke-opacity:0.2"/>
+
+    <text x="0" y="82" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(13,15,20,0.35);letter-spacing:2.5px">CLOUD</text>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       STYLE REFERENCE STRIP (bottom-left)
+  ═══════════════════════════════════════════════════════════════════════ -->
+  <!-- Removed to keep canvas clean — style tokens are in the file header comments -->
+
+</svg>

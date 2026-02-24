@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="900"
+   viewBox="0 0 900 900"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="mason_logo_v2.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2966667"
+     inkscape:cx="450"
+     inkscape:cy="450"
+     inkscape:window-width="1904"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="bg"
+       x1="119"
+       y1="119"
+       x2="781"
+       y2="781"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#1b2a41"
+         id="stop1" />
+      <stop
+         offset="55%"
+         stop-color="#111827"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#0b1220"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="accent"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#60a5fa"
+         id="stop4" />
+      <stop
+         offset="100%"
+         stop-color="#22d3ee"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="accentSoft"
+       x1="0%"
+       y1="0%"
+       x2="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#93c5fd"
+         stop-opacity="0.95"
+         id="stop6" />
+      <stop
+         offset="100%"
+         stop-color="#22d3ee"
+         stop-opacity="0.9"
+         id="stop7" />
+    </linearGradient>
+    <filter
+       id="softShadow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="0"
+         dy="10"
+         stdDeviation="16"
+         flood-color="#020617"
+         flood-opacity="0.5" />
+    </filter>
+    <filter
+       id="iconGlow"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feDropShadow
+         dx="0"
+         dy="0"
+         stdDeviation="8"
+         flood-color="#38bdf8"
+         flood-opacity="0.45" />
+    </filter>
+    <linearGradient
+       id="accent-0"
+       x1="489.54932"
+       y1="145.84843"
+       x2="666.65099"
+       y2="145.84843"
+       gradientTransform="matrix(0.69451634,0,0,1.4398509,48,13)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#60a5fa"
+         id="stop3-9" />
+      <stop
+         offset="100%"
+         stop-color="#22d3ee"
+         id="stop4-4" />
+    </linearGradient>
+  </defs>
+  <!-- Page background -->
+  <rect
+     width="900"
+     height="900"
+     fill="#f8fafc"
+     id="rect7" />
+  <!-- soft ambient shadow behind badge -->
+  <rect
+     x="130"
+     y="130"
+     rx="72"
+     ry="72"
+     width="640"
+     height="640"
+     fill="#020617"
+     opacity="0.22"
+     filter="url(#softShadow)"
+     id="rect8" />
+  <!-- badge -->
+  <rect
+     x="120"
+     y="120"
+     rx="72"
+     ry="72"
+     width="660"
+     height="660"
+     fill="url(#bg)"
+     stroke="#334155"
+     stroke-width="2"
+     id="rect9"
+     style="fill:url(#bg)" />
+  <!-- subtle top sheen -->
+  <path
+     d="M180 155 H720 Q760 155 760 195 V270 Q580 230 420 250 Q290 266 140 315 V195 Q140 155 180 155 Z"
+     fill="#ffffff"
+     opacity="0.05"
+     id="path9" />
+  <!-- inner border -->
+  <rect
+     x="146"
+     y="146"
+     rx="52"
+     ry="52"
+     width="608"
+     height="608"
+     fill="none"
+     stroke="#bfdbfe"
+     stroke-opacity="0.45"
+     stroke-width="2"
+     id="rect10" />
+  <!-- icon ring -->
+  <circle
+     cx="450"
+     cy="355"
+     r="162"
+     fill="none"
+     stroke="url(#accent)"
+     stroke-width="22"
+     opacity="0.95"
+     id="circle10" />
+  <!-- ring ticks -->
+  <g
+     stroke="#93c5fd"
+     stroke-opacity="0.6"
+     stroke-width="4"
+     stroke-linecap="round"
+     id="g13">
+    <line
+       x1="450"
+       y1="172"
+       x2="450"
+       y2="188"
+       id="line10" />
+    <line
+       x1="633"
+       y1="355"
+       x2="617"
+       y2="355"
+       id="line11" />
+    <line
+       x1="450"
+       y1="538"
+       x2="450"
+       y2="522"
+       id="line12" />
+    <line
+       x1="267"
+       y1="355"
+       x2="283"
+       y2="355"
+       id="line13" />
+  </g>
+  <!-- lightning icon -->
+  <path
+     d="M483 219 L383 372 L451 372 L392 500 L523 331 L446 331 Z"
+     fill="url(#accentSoft)"
+     filter="url(#iconGlow)"
+     id="path13" />
+  <!-- icon highlight edge -->
+  <!-- title -->
+  <text
+     x="450"
+     y="627"
+     text-anchor="middle"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="96"
+     font-weight="700"
+     letter-spacing="1"
+     fill="#f8fafc"
+     id="text14">MASON</text>
+  <!-- separator accents -->
+  <g
+     stroke="url(#accent)"
+     stroke-width="3"
+     stroke-linecap="round"
+     opacity="0.85"
+     id="g15">
+    <line
+       x1="248"
+       y1="675"
+       x2="348"
+       y2="675"
+       id="line14" />
+    <line
+       x1="552"
+       y1="675"
+       x2="652"
+       y2="675"
+       id="line15" />
+  </g>
+  <g
+     fill="#93c5fd"
+     opacity="0.9"
+     id="g16"
+     transform="matrix(0.98688422,0,0,1,-6.0516232,1.0128535e-6)">
+    <circle
+       cx="365"
+       cy="675"
+       r="3.2"
+       id="circle15" />
+    <circle
+       cx="535"
+       cy="675"
+       r="3.2"
+       id="circle16" />
+  </g>
+  <!-- subtitle -->
+  <text
+     x="451.1192"
+     y="687.6925"
+     text-anchor="middle"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="31.0558px"
+     font-weight="600"
+     letter-spacing="5"
+     fill="#dbeafe"
+     fill-opacity="0.92"
+     id="text16"
+     transform="scale(1.001799,0.99820421)"
+     style="stroke-width:1.0018">ASSET LAB</text>
+  <!-- tiny footer tag -->
+  <text
+     x="450"
+     y="732"
+     text-anchor="middle"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="16"
+     letter-spacing="2"
+     fill="#93c5fd"
+     fill-opacity="0.75"
+     id="text17">VECTOR IDENTITY SAMPLE</text>
+  <path
+     d="m 473,223 -85,140 h 62 L 403,478 511,325 h -69 z"
+     fill="url(#accent)"
+     opacity="0.95"
+     id="path4"
+     style="fill:url(#accent-0)" />
+</svg>

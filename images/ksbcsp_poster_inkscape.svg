@@ -1,0 +1,2451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   id="ksbcsp_poster"
+   version="1.1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi0:docname="ksbcsp_techdesign_poster.svg"
+   width="1080"
+   height="1350"
+   viewBox="0 0 1080 1350"
+   sodipodi:docname="ksbcsp_poster_inkscape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi0="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd">
+  <sodipodi:namedview
+     id="namedview152"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.86444444"
+     inkscape:cx="540.80977"
+     inkscape:cy="675"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer_cta" />
+  <sodipodi0:namedview
+     id="namedview1"
+     pagecolor="#060D1A"
+     bordercolor="#00D9FF"
+     borderopacity="0.3"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.8"
+     inkscape:cx="540"
+     inkscape:cy="675"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer_typography"
+     showgrid="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-bbox="true"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       originx="0"
+       originy="0"
+       spacingx="18"
+       spacingy="18"
+       color="#00D9FF"
+       opacity="0.04"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi0:namedview>
+  <svg:title
+     id="title1">KSBCSP × Design Team — Tech × Design Creative Night</svg:title>
+  <svg:desc
+     id="desc1">Event poster with integrated icon system. All elements are vector paths, editable in Inkscape. Layers organized for easy template reuse.</svg:desc>
+  <svg:defs
+     id="poster_defs">
+    <svg:rect
+       x="-336.63239"
+       y="190.87404"
+       width="72.879177"
+       height="85.604113"
+       id="rect188" />
+    <svg:linearGradient
+       id="linearGradient187"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f4f4f4;stop-opacity:1;"
+         offset="1"
+         id="stop187" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop188" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient185"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f7f7f7;stop-opacity:1;"
+         offset="1"
+         id="stop185" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop186" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient179"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#fff1f1;stop-opacity:0.97241378;"
+         offset="1"
+         id="stop179" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop180" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient177"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f5f5f5;stop-opacity:1;"
+         offset="1"
+         id="stop177" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop178" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient175"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f6f6f6;stop-opacity:1;"
+         offset="1"
+         id="stop175" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop176" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient173"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f2f2f2;stop-opacity:1;"
+         offset="1"
+         id="stop173" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop174" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient171"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f6f6f6;stop-opacity:1;"
+         offset="1"
+         id="stop171" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop172" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient169"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f6f6f6;stop-opacity:1;"
+         offset="0.99078339"
+         id="stop169" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop170" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient167"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#fbfbfb;stop-opacity:1;"
+         offset="1"
+         id="stop167" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop168" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient165"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="1"
+         id="stop165" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop166" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient163"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f8f8f8;stop-opacity:1;"
+         offset="1"
+         id="stop163" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop164" />
+    </svg:linearGradient>
+    <svg:rect
+       x="160.79692"
+       y="901.15681"
+       width="3.470437"
+       height="13.881748"
+       id="rect162" />
+    <svg:linearGradient
+       id="linearGradient161"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f6f6f6;stop-opacity:1;"
+         offset="1"
+         id="stop161" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop162" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient159"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#fff7f7;stop-opacity:1;"
+         offset="1"
+         id="stop159" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop160" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient157"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#fff5f5;stop-opacity:0.96551722;"
+         offset="1"
+         id="stop157" />
+      <svg:stop
+         style="stop-color:#ffefef;stop-opacity:0;"
+         offset="1"
+         id="stop158" />
+    </svg:linearGradient>
+    <svg:rect
+       x="47.429306"
+       y="897.68638"
+       width="957.84062"
+       height="47.429306"
+       id="rect157" />
+    <svg:rect
+       x="58.997429"
+       y="784.31877"
+       width="403.72751"
+       height="23.136247"
+       id="rect156" />
+    <svg:linearGradient
+       id="linearGradient155"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="1"
+         id="stop155" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop156" />
+    </svg:linearGradient>
+    <svg:linearGradient
+       id="linearGradient153"
+       inkscape:collect="always">
+      <svg:stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop153" />
+      <svg:stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop154" />
+    </svg:linearGradient>
+    <svg:rect
+       x="49.742931"
+       y="731.1054"
+       width="901.15681"
+       height="75.192802"
+       id="rect153" />
+    <!-- ── COLOR PALETTE (edit stop colors to retheme) ── -->
+    <!--
+      Navy:        #060D1A   (background)
+      Navy Mid:    #0C1628   (secondary bg)
+      Cyan:        #00D9FF   (primary accent / tech)
+      Amber:       #FFB800   (secondary accent / design)
+      Cool White:  #F4F7FF   (text / light elements)
+    -->
+    <!-- Cyan gradient (left to transparent) -->
+    <svg:linearGradient
+       id="grad_cyan_fade"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <svg:stop
+         offset="0%"
+         stop-color="#00D9FF"
+         stop-opacity="1"
+         id="stop1" />
+      <svg:stop
+         offset="100%"
+         stop-color="#00D9FF"
+         stop-opacity="0.05"
+         id="stop2" />
+    </svg:linearGradient>
+    <!-- Amber gradient (transparent to right) -->
+    <svg:linearGradient
+       id="grad_amber_fade"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <svg:stop
+         offset="0%"
+         stop-color="#FFB800"
+         stop-opacity="0.05"
+         id="stop3" />
+      <svg:stop
+         offset="100%"
+         stop-color="#FFB800"
+         stop-opacity="1"
+         id="stop4" />
+    </svg:linearGradient>
+    <!-- Top cyan radial wash -->
+    <svg:radialGradient
+       id="grad_top_wash"
+       cx="30%"
+       cy="0%"
+       r="70%"
+       gradientUnits="objectBoundingBox">
+      <svg:stop
+         offset="0%"
+         stop-color="#00D9FF"
+         stop-opacity="0.09"
+         id="stop5" />
+      <svg:stop
+         offset="100%"
+         stop-color="#00D9FF"
+         stop-opacity="0"
+         id="stop6" />
+    </svg:radialGradient>
+    <!-- Bottom amber radial wash -->
+    <svg:radialGradient
+       id="grad_bottom_wash"
+       cx="70%"
+       cy="100%"
+       r="60%"
+       gradientUnits="objectBoundingBox">
+      <svg:stop
+         offset="0%"
+         stop-color="#FFB800"
+         stop-opacity="0.07"
+         id="stop7" />
+      <svg:stop
+         offset="100%"
+         stop-color="#FFB800"
+         stop-opacity="0"
+         id="stop8" />
+    </svg:radialGradient>
+    <!-- Dot grid pattern -->
+    <svg:pattern
+       id="pattern_dots"
+       x="0"
+       y="0"
+       width="36"
+       height="36"
+       patternUnits="userSpaceOnUse">
+      <svg:circle
+         cx="18"
+         cy="18"
+         r="1.2"
+         fill="#00D9FF"
+         opacity="0.14"
+         id="circle8" />
+    </svg:pattern>
+    <!-- Fine grid pattern -->
+    <svg:pattern
+       id="pattern_grid"
+       x="0"
+       y="0"
+       width="72"
+       height="72"
+       patternUnits="userSpaceOnUse">
+      <svg:rect
+         width="72"
+         height="72"
+         fill="none"
+         stroke="#00D9FF"
+         stroke-width="0.4"
+         opacity="0.05"
+         id="rect8" />
+    </svg:pattern>
+    <!-- Subtle noise texture -->
+    <svg:filter
+       id="filter_noise"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%">
+      <svg:feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.9"
+         numOctaves="4"
+         result="noise"
+         id="feTurbulence8" />
+      <svg:feColorMatrix
+         type="saturate"
+         values="0"
+         in="noise"
+         result="greyNoise"
+         id="feColorMatrix8" />
+      <svg:feBlend
+         in="SourceGraphic"
+         in2="greyNoise"
+         mode="overlay"
+         result="blended"
+         id="feBlend8" />
+      <svg:feComposite
+         in="blended"
+         in2="SourceGraphic"
+         operator="in"
+         id="feComposite8" />
+    </svg:filter>
+    <!-- Glow filter for title text -->
+    <svg:filter
+       id="filter_title_glow"
+       x="-0.19950076"
+       y="-0.19968312"
+       width="1.3990015"
+       height="1.3993662">
+      <svg:feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="8"
+         result="blur"
+         id="feGaussianBlur8" />
+      <svg:feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="over"
+         id="feComposite9" />
+    </svg:filter>
+    <!-- Glow for cyan elements -->
+    <svg:filter
+       id="filter_cyan_glow"
+       x="-15%"
+       y="-15%"
+       width="130%"
+       height="130%">
+      <svg:feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="4"
+         result="blur"
+         id="feGaussianBlur9" />
+      <svg:feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="over"
+         id="feComposite10" />
+    </svg:filter>
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient153"
+       id="linearGradient154"
+       x1="53.973633"
+       y1="743.45166"
+       x2="882.46973"
+       y2="743.45166"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient155"
+       id="linearGradient156"
+       x1="54.234863"
+       y1="771.10864"
+       x2="504.15186"
+       y2="771.10864"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient157"
+       id="linearGradient158" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient159"
+       id="linearGradient160"
+       x1="15.256348"
+       y1="65.442383"
+       x2="38.607422"
+       y2="65.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient161"
+       id="linearGradient162"
+       x1="12.055908"
+       y1="59.442383"
+       x2="42.119873"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient163"
+       id="linearGradient164"
+       x1="2.7094727"
+       y1="59.442383"
+       x2="51.659668"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient165"
+       id="linearGradient166"
+       x1="8.9916992"
+       y1="59.442383"
+       x2="45.368652"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient167"
+       id="linearGradient168"
+       x1="2.2788086"
+       y1="59.442383"
+       x2="51.787109"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient169"
+       id="linearGradient170"
+       x1="5.2990723"
+       y1="59.442383"
+       x2="48.674561"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient171"
+       id="linearGradient172"
+       x1="-4.3989258"
+       y1="59.442383"
+       x2="58.003418"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient173"
+       id="linearGradient174"
+       x1="-0.93920898"
+       y1="59.442383"
+       x2="54.969971"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient175"
+       id="linearGradient176"
+       x1="2.6831055"
+       y1="59.442383"
+       x2="51.290527"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient177"
+       id="linearGradient178"
+       x1="8.8554688"
+       y1="59.442383"
+       x2="45.636719"
+       y2="59.442383"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient179"
+       id="linearGradient180"
+       x1="55.212402"
+       y1="1104.8167"
+       x2="471.24658"
+       y2="1104.8167"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient185"
+       id="linearGradient186"
+       x1="730.12891"
+       y1="693.55347"
+       x2="941.19629"
+       y2="693.55347"
+       gradientUnits="userSpaceOnUse" />
+    <svg:linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient187"
+       id="linearGradient188"
+       x1="406.84863"
+       y1="693.66626"
+       x2="541.74951"
+       y2="693.66626"
+       gradientUnits="userSpaceOnUse" />
+  </svg:defs>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 00 · BACKGROUND
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="00 · Background"
+     inkscape:groupmode="layer"
+     id="layer_bg">
+    <!-- Base fill -->
+    <svg:rect
+       id="bg_base"
+       x="0"
+       y="0"
+       width="1080"
+       height="1350"
+       style="fill:#060D1A;stroke:none" />
+    <!-- Dot grid -->
+    <svg:rect
+       id="bg_dots"
+       x="0"
+       y="0"
+       width="1080"
+       height="1350"
+       style="fill:url(#pattern_dots);stroke:none" />
+    <!-- Fine grid -->
+    <svg:rect
+       id="bg_grid"
+       x="0"
+       y="0"
+       width="1080"
+       height="1350"
+       style="fill:url(#pattern_grid);stroke:none" />
+    <!-- Top cyan wash -->
+    <svg:rect
+       id="bg_top_wash"
+       x="0"
+       y="0"
+       width="1080"
+       height="700"
+       style="fill:url(#grad_top_wash);stroke:none" />
+    <!-- Bottom amber wash -->
+    <svg:rect
+       id="bg_bottom_wash"
+       x="0"
+       y="700"
+       width="1080"
+       height="650"
+       style="fill:url(#grad_bottom_wash);stroke:none" />
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 01 · CIRCUIT TRACES + NODE NETWORKS
+       These are all pure path/line elements, editable as paths in Inkscape.
+       Select any element and use Node tool (N) to adjust.
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="01 · Circuit Traces &amp; Nodes"
+     inkscape:groupmode="layer"
+     id="layer_circuits">
+    <!-- ── TOP AREA CIRCUIT TRACES ── -->
+    <svg:g
+       id="circuits_top"
+       inkscape:label="Top Circuit Group">
+      <svg:polyline
+         id="trace_t1"
+         points="0,290 180,290 180,228 400,228"
+         style="fill:none;stroke:#00D9FF;stroke-width:1.2;stroke-opacity:0.18;stroke-linecap:square" />
+      <svg:polyline
+         id="trace_t2"
+         points="680,228 900,228 900,290 1080,290"
+         style="fill:none;stroke:#00D9FF;stroke-width:1.2;stroke-opacity:0.18;stroke-linecap:square" />
+      <svg:polyline
+         id="trace_t3"
+         points="0,340 120,340 120,308 250,308"
+         style="fill:none;stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.12;stroke-linecap:square" />
+      <svg:polyline
+         id="trace_t4"
+         points="830,308 960,308 960,340 1080,340"
+         style="fill:none;stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.12;stroke-linecap:square" />
+      <!-- Nodes at trace corners -->
+      <svg:g
+         id="nodes_top"
+         style="fill:#00D9FF;fill-opacity:0.3">
+        <svg:circle
+           cx="180"
+           cy="290"
+           r="3.5"
+           inkscape:label="Node T1"
+           id="circle10" />
+        <svg:circle
+           cx="180"
+           cy="228"
+           r="3"
+           id="circle11" />
+        <svg:circle
+           cx="400"
+           cy="228"
+           r="2.5"
+           id="circle12" />
+        <svg:circle
+           cx="680"
+           cy="228"
+           r="2.5"
+           id="circle13" />
+        <svg:circle
+           cx="900"
+           cy="228"
+           r="3"
+           id="circle14" />
+        <svg:circle
+           cx="900"
+           cy="290"
+           r="3.5"
+           id="circle15" />
+        <svg:circle
+           cx="120"
+           cy="340"
+           r="2.5"
+           id="circle16" />
+        <svg:circle
+           cx="120"
+           cy="308"
+           r="2"
+           id="circle17" />
+        <svg:circle
+           cx="250"
+           cy="308"
+           r="2"
+           id="circle18" />
+        <svg:circle
+           cx="830"
+           cy="308"
+           r="2"
+           id="circle19" />
+        <svg:circle
+           cx="960"
+           cy="308"
+           r="2"
+           id="circle20" />
+        <svg:circle
+           cx="960"
+           cy="340"
+           r="2.5"
+           id="circle21" />
+      </svg:g>
+    </svg:g>
+    <!-- ── RIGHT EDGE NODE NETWORK ── -->
+    <svg:g
+       id="network_right"
+       inkscape:label="Right Node Network">
+      <svg:line
+         x1="940"
+         y1="490"
+         x2="1010"
+         y2="565"
+         style="stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.1"
+         id="line21" />
+      <svg:line
+         x1="1010"
+         y1="565"
+         x2="1075"
+         y2="528"
+         style="stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.1"
+         id="line22" />
+      <svg:line
+         x1="1010"
+         y1="565"
+         x2="1020"
+         y2="650"
+         style="stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.1"
+         id="line23" />
+      <svg:line
+         x1="1020"
+         y1="650"
+         x2="1075"
+         y2="670"
+         style="stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.1"
+         id="line24" />
+      <svg:line
+         x1="1020"
+         y1="650"
+         x2="990"
+         y2="720"
+         style="stroke:#00D9FF;stroke-width:0.9;stroke-opacity:0.1"
+         id="line25" />
+      <svg:g
+         style="fill:#00D9FF;fill-opacity:0.28"
+         id="g30">
+        <svg:circle
+           cx="940"
+           cy="490"
+           r="3.5"
+           id="circle25" />
+        <svg:circle
+           cx="1010"
+           cy="565"
+           r="4.5"
+           id="circle26" />
+        <svg:circle
+           cx="1075"
+           cy="528"
+           r="3"
+           id="circle27" />
+        <svg:circle
+           cx="1020"
+           cy="650"
+           r="4"
+           id="circle28" />
+        <svg:circle
+           cx="1075"
+           cy="670"
+           r="3"
+           id="circle29" />
+        <svg:circle
+           cx="990"
+           cy="720"
+           r="3"
+           id="circle30" />
+      </svg:g>
+    </svg:g>
+    <!-- ── LEFT EDGE NODE NETWORK ── -->
+    <svg:g
+       id="network_left"
+       inkscape:label="Left Node Network">
+      <svg:line
+         x1="100"
+         y1="480"
+         x2="40"
+         y2="545"
+         style="stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1"
+         id="line30" />
+      <svg:line
+         x1="40"
+         y1="545"
+         x2="0"
+         y2="520"
+         style="stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1"
+         id="line31" />
+      <svg:line
+         x1="40"
+         y1="545"
+         x2="60"
+         y2="625"
+         style="stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1"
+         id="line32" />
+      <svg:line
+         x1="60"
+         y1="625"
+         x2="20"
+         y2="668"
+         style="stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1"
+         id="line33" />
+      <svg:line
+         x1="60"
+         y1="625"
+         x2="90"
+         y2="700"
+         style="stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1"
+         id="line34" />
+      <svg:g
+         style="fill:#FFB800;fill-opacity:0.25"
+         id="g38">
+        <svg:circle
+           cx="100"
+           cy="480"
+           r="3"
+           id="circle34" />
+        <svg:circle
+           cx="40"
+           cy="545"
+           r="4"
+           id="circle35" />
+        <svg:circle
+           cx="60"
+           cy="625"
+           r="3.5"
+           id="circle36" />
+        <svg:circle
+           cx="20"
+           cy="668"
+           r="2.5"
+           id="circle37" />
+        <svg:circle
+           cx="90"
+           cy="700"
+           r="3"
+           id="circle38" />
+      </svg:g>
+    </svg:g>
+    <!-- ── BOTTOM CIRCUIT TRACES ── -->
+    <svg:g
+       id="circuits_bottom"
+       inkscape:label="Bottom Circuit Group">
+      <svg:polyline
+         id="trace_b1"
+         points="0,1070 150,1070 150,1110 320,1110"
+         style="fill:none;stroke:#FFB800;stroke-width:1.2;stroke-opacity:0.14;stroke-linecap:square" />
+      <svg:polyline
+         id="trace_b2"
+         points="760,1110 930,1110 930,1070 1080,1070"
+         style="fill:none;stroke:#FFB800;stroke-width:1.2;stroke-opacity:0.14;stroke-linecap:square" />
+      <svg:polyline
+         id="trace_b3"
+         points="320,1110 320,1150 480,1150"
+         style="fill:none;stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1;stroke-linecap:square" />
+      <svg:polyline
+         id="trace_b4"
+         points="600,1150 760,1150 760,1110"
+         style="fill:none;stroke:#FFB800;stroke-width:0.9;stroke-opacity:0.1;stroke-linecap:square" />
+      <svg:g
+         id="nodes_bottom"
+         style="fill:#FFB800;fill-opacity:0.28">
+        <svg:circle
+           cx="150"
+           cy="1070"
+           r="3"
+           id="circle39" />
+        <svg:circle
+           cx="150"
+           cy="1110"
+           r="3.5"
+           id="circle40" />
+        <svg:circle
+           cx="320"
+           cy="1110"
+           r="3.5"
+           id="circle41" />
+        <svg:circle
+           cx="930"
+           cy="1110"
+           r="3.5"
+           id="circle42" />
+        <svg:circle
+           cx="930"
+           cy="1070"
+           r="3"
+           id="circle43" />
+        <svg:circle
+           cx="760"
+           cy="1110"
+           r="3.5"
+           id="circle44" />
+        <svg:circle
+           cx="320"
+           cy="1150"
+           r="2.5"
+           id="circle45" />
+        <svg:circle
+           cx="480"
+           cy="1150"
+           r="2.5"
+           id="circle46" />
+        <svg:circle
+           cx="600"
+           cy="1150"
+           r="2.5"
+           id="circle47" />
+        <svg:circle
+           cx="760"
+           cy="1150"
+           r="2.5"
+           id="circle48" />
+      </svg:g>
+    </svg:g>
+    <!-- ── CORNER GEOMETRIC ACCENTS ── -->
+    <!-- Top-right: small hex + code brackets -->
+    <svg:g
+       id="accent_topright"
+       inkscape:label="Top-Right Tech Accent">
+      <svg:polygon
+         id="hex_tr"
+         points="1010,48 1054,72 1054,120 1010,144 966,120 966,72"
+         style="fill:none;stroke:#00D9FF;stroke-width:1.75;stroke-opacity:0.2" />
+      <svg:circle
+         id="hex_tr_circle"
+         cx="1010"
+         cy="96"
+         r="14"
+         style="fill:none;stroke:#00D9FF;stroke-width:1;stroke-opacity:0.3" />
+      <svg:text
+         x="1010"
+         y="101"
+         text-anchor="middle"
+         style="font-family:'Courier New',monospace;font-size:16px;fill:#00D9FF;fill-opacity:0.35;letter-spacing:1px"
+         id="text48">&lt;/&gt;</svg:text>
+    </svg:g>
+    <!-- Top-left: UI panel accent -->
+    <svg:g
+       id="accent_topleft"
+       inkscape:label="Top-Left UI Accent">
+      <svg:rect
+         id="ui_panel_tl"
+         x="38"
+         y="48"
+         width="64"
+         height="64"
+         rx="4"
+         style="fill:rgba(255,184,0,0.04);stroke:#FFB800;stroke-width:1.5;stroke-opacity:0.2" />
+      <svg:line
+         x1="38"
+         y1="70"
+         x2="102"
+         y2="70"
+         style="stroke:#FFB800;stroke-width:0.75;stroke-opacity:0.3"
+         id="line48" />
+      <svg:circle
+         cx="52"
+         cy="59"
+         r="4"
+         style="fill:rgba(255,184,0,0.08);stroke:#FFB800;stroke-width:1;stroke-opacity:0.3"
+         id="circle49" />
+      <svg:rect
+         x="60"
+         y="55"
+         width="20"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.1);stroke:#FFB800;stroke-width:0.5;stroke-opacity:0.3"
+         id="rect49" />
+      <svg:rect
+         x="48"
+         y="78"
+         width="44"
+         height="6"
+         rx="1"
+         style="fill:#FFB800;fill-opacity:0.08"
+         id="rect50" />
+      <svg:rect
+         x="48"
+         y="88"
+         width="30"
+         height="6"
+         rx="1"
+         style="fill:#FFB800;fill-opacity:0.06"
+         id="rect51" />
+      <svg:rect
+         x="48"
+         y="98"
+         width="36"
+         height="6"
+         rx="1"
+         style="fill:#FFB800;fill-opacity:0.06"
+         id="rect52" />
+    </svg:g>
+    <!-- Top-right color swatch strip -->
+    <svg:g
+       id="accent_swatches"
+       inkscape:label="Color Swatch Strip">
+      <svg:rect
+         x="950"
+         y="168"
+         width="18"
+         height="18"
+         rx="2"
+         style="fill:#00D9FF;fill-opacity:0.25"
+         id="rect53" />
+      <svg:rect
+         x="970"
+         y="168"
+         width="18"
+         height="18"
+         rx="2"
+         style="fill:#FFB800;fill-opacity:0.25"
+         id="rect54" />
+      <svg:rect
+         x="990"
+         y="168"
+         width="18"
+         height="18"
+         rx="2"
+         style="fill:#F4F7FF;fill-opacity:0.12"
+         id="rect55" />
+      <svg:rect
+         x="1010"
+         y="168"
+         width="18"
+         height="18"
+         rx="2"
+         style="fill:#FF4560;fill-opacity:0.18"
+         id="rect56" />
+      <svg:line
+         x1="948"
+         y1="165"
+         x2="1030"
+         y2="165"
+         style="stroke:#00D9FF;stroke-width:0.6;stroke-opacity:0.3"
+         id="line56" />
+      <svg:line
+         x1="948"
+         y1="188"
+         x2="1030"
+         y2="188"
+         style="stroke:#00D9FF;stroke-width:0.6;stroke-opacity:0.3"
+         id="line57" />
+    </svg:g>
+    <!-- Cursor arrow (design / tech blend, left side) -->
+    <svg:g
+       id="accent_cursor"
+       inkscape:label="Cursor Arrow Design Element">
+      <svg:polygon
+         id="cursor_arrow"
+         points="88,820 88,856 96,849 102,866 108,864 102,847 112,847"
+         style="fill:rgba(0,217,255,0.08);stroke:#00D9FF;stroke-width:1.2;stroke-opacity:0.25;stroke-linejoin:round" />
+    </svg:g>
+    <!-- Vector path nodes (design element, right side mid) -->
+    <svg:g
+       id="accent_path_nodes"
+       inkscape:label="Vector Path Nodes Design Element">
+      <svg:path
+         id="bezier_path"
+         d="M 1038,820 C 1010,840 990,860 972,890"
+         style="fill:none;stroke:#FFB800;stroke-width:1.2;stroke-opacity:0.18;stroke-dasharray:3,4" />
+      <!-- Node handles -->
+      <svg:line
+         x1="1038"
+         y1="820"
+         x2="1010"
+         y2="840"
+         style="stroke:#FFB800;stroke-width:0.75;stroke-opacity:0.18"
+         id="line58" />
+      <svg:circle
+         cx="1038"
+         cy="820"
+         r="3.5"
+         style="fill:#FFB800;fill-opacity:0.3"
+         id="circle58" />
+      <svg:rect
+         x="1006"
+         y="836"
+         width="8"
+         height="8"
+         style="fill:rgba(255,184,0,0.2);stroke:#FFB800;stroke-width:0.75;stroke-opacity:0.4"
+         id="rect58" />
+      <svg:rect
+         x="968"
+         y="886"
+         width="8"
+         height="8"
+         style="fill:rgba(255,184,0,0.2);stroke:#FFB800;stroke-width:0.75;stroke-opacity:0.4"
+         id="rect59" />
+    </svg:g>
+    <!-- Alignment guide crosses (design world element) -->
+    <svg:g
+       id="accent_guides"
+       inkscape:label="Alignment Guide Crosses"
+       style="stroke:#00D9FF;stroke-opacity:0.15;stroke-width:0.75">
+      <svg:line
+         x1="0"
+         y1="810"
+         x2="54"
+         y2="810"
+         id="line59" />
+      <svg:line
+         x1="1026"
+         y1="810"
+         x2="1080"
+         y2="810"
+         id="line60" />
+      <svg:line
+         x1="0"
+         y1="1040"
+         x2="54"
+         y2="1040"
+         id="line61" />
+      <svg:line
+         x1="1026"
+         y1="1040"
+         x2="1080"
+         y2="1040"
+         id="line62" />
+    </svg:g>
+    <!-- Code bracket watermarks -->
+    <svg:text
+       id="watermark_bracket_l"
+       x="54"
+       y="986"
+       style="font-family:'Courier New',monospace;font-size:18px;fill:#00D9FF;fill-opacity:0.07;letter-spacing:4px">{ }</svg:text>
+    <svg:text
+       id="watermark_bracket_r"
+       x="992"
+       y="476"
+       style="font-family:'Courier New',monospace;font-size:16px;fill:#00D9FF;fill-opacity:0.08;letter-spacing:3px">[ ]</svg:text>
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 02 · HEADER BAR
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="02 · Header Bar"
+     inkscape:groupmode="layer"
+     id="layer_header">
+    <!-- Header bar background -->
+    <svg:rect
+       id="header_bg"
+       x="0"
+       y="0"
+       width="1080"
+       height="82"
+       style="fill:rgba(0,217,255,0.03);stroke:none" />
+    <!-- Header bottom border -->
+    <svg:line
+       id="header_rule"
+       x1="0"
+       y1="82"
+       x2="1080"
+       y2="82"
+       style="stroke:#00D9FF;stroke-width:1;stroke-opacity:0.15" />
+    <!-- Club name left: KSBCSP -->
+    <svg:text
+       id="header_ksbcsp"
+       x="54"
+       y="52"
+       style="font-family:'Courier New',monospace;font-size:14px;font-weight:700;               fill:#00D9FF;letter-spacing:5px;text-transform:uppercase">KSBCSP</svg:text>
+    <!-- × symbol center -->
+    <svg:text
+       id="header_cross"
+       x="540"
+       y="52"
+       text-anchor="middle"
+       style="font-family:'Courier New',monospace;font-size:16px;font-weight:700;               fill:rgba(0,217,255,0.3);letter-spacing:3px">×</svg:text>
+    <!-- Design Team right -->
+    <svg:text
+       id="header_design"
+       x="1026"
+       y="52"
+       text-anchor="end"
+       style="font-family:'Courier New',monospace;font-size:14px;font-weight:700;               fill:#FFB800;letter-spacing:5px;text-transform:uppercase">Design Team</svg:text>
+    <!-- Eyebrow: PRESENTS -->
+    <svg:g
+       id="eyebrow_group">
+      <svg:line
+         x1="54"
+         y1="107"
+         x2="84"
+         y2="107"
+         style="stroke:#00D9FF;stroke-width:1;stroke-opacity:0.55"
+         id="line63" />
+      <svg:text
+         id="eyebrow_text"
+         x="96"
+         y="112"
+         style="font-family:'Courier New',monospace;font-size:12px;                 fill:rgba(180,200,230,0.4);letter-spacing:6px;text-transform:uppercase">Presents</svg:text>
+    </svg:g>
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 03 · HERO TYPOGRAPHY
+       After import into Inkscape: Text > Object to Path
+       to convert for print/embed use.
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="03 · Hero Typography"
+     inkscape:groupmode="layer"
+     id="layer_typography">
+    <!-- TECH × -->
+    <svg:text
+       id="title_tech"
+       x="54"
+       y="318"
+       style="font-family:'Arial Black','Haas Grot Display','Impact',sans-serif;               font-size:196px;font-weight:900;fill:#F4F7FF;               letter-spacing:-4px;line-height:0.88">TECH</svg:text>
+    <!-- × symbol -->
+    <svg:text
+       id="title_x"
+       x="650.97687"
+       y="235.86633"
+       style="font-weight:900;font-size:180px;font-family:'Arial Black', 'Haas Grot Display', Impact, sans-serif;letter-spacing:-4px;fill:#00d9ff;fill-opacity:1;filter:url(#filter_title_glow)">×</svg:text>
+    <!-- DESIGN (amber, below TECH, slightly indented) -->
+    <svg:text
+       id="title_design"
+       x="54"
+       y="492"
+       style="font-family:'Arial Black','Haas Grot Display','Impact',sans-serif;               font-size:196px;font-weight:900;               fill:#FFB800;letter-spacing:-4px;               filter:url(#filter_title_glow)">DESIGN</svg:text>
+    <!-- CREATIVE NIGHT subtitle -->
+    <svg:text
+       id="title_sub"
+       x="54"
+       y="564"
+       style="font-weight:700;font-size:36px;font-family:'Arial Black', Impact, sans-serif;letter-spacing:18px;text-transform:uppercase"><svg:tspan
+         style="fill:#bcf5ff;fill-opacity:1"
+         id="tspan184">CREATIVENIGHT</svg:tspan><nbsp /><nbsp /></svg:text>
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 04 · DIVIDER + EVENT DETAILS
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="04 · Divider &amp; Event Details"
+     inkscape:groupmode="layer"
+     id="layer_details">
+    <!-- Divider rule -->
+    <svg:line
+       id="div_left"
+       x1="54"
+       y1="608"
+       x2="490"
+       y2="608"
+       style="stroke:url(#grad_cyan_fade);stroke-width:1.5" />
+    <!-- Diamond center -->
+    <svg:rect
+       id="div_diamond"
+       x="533"
+       y="601"
+       width="10"
+       height="10"
+       style="fill:#FFB800;stroke:none"
+       transform="rotate(45,538,606)" />
+    <svg:line
+       id="div_right"
+       x1="590"
+       y1="608"
+       x2="1026"
+       y2="608"
+       style="stroke:url(#grad_amber_fade);stroke-width:1.5" />
+    <!-- EVENT DETAILS GRID: Date | Time | Location -->
+    <svg:g
+       id="details_block"
+       inkscape:label="Event Details Block">
+      <!-- DATE -->
+      <svg:g
+         id="detail_date">
+        <svg:text
+           x="54"
+           y="644"
+           style="font-family:'Courier New',monospace;font-size:11px;           fill:#00D9FF;letter-spacing:4px;text-transform:uppercase"
+           id="text63">Date</svg:text>
+        <svg:text
+           x="54"
+           y="676"
+           style="font-family:'Arial Black','Impact',sans-serif;           font-size:22px;font-weight:900;fill:#F4F7FF;letter-spacing:1px"
+           id="text64">Friday, Apr 11</svg:text>
+        <svg:text
+           x="54"
+           y="696"
+           style="font-size:11px;font-family:'Courier New', monospace;letter-spacing:1px"
+           id="text65"><svg:tspan
+             style="fill:#fffcf4;fill-opacity:1"
+             id="tspan188">2025 · Spring Semester</svg:tspan></svg:text>
+      </svg:g>
+      <!-- TIME -->
+      <svg:g
+         id="detail_time">
+        <svg:line
+           x1="376"
+           y1="630"
+           x2="376"
+           y2="700"
+           style="stroke:#00D9FF;stroke-width:0.75;stroke-opacity:0.18"
+           id="line65" />
+        <svg:text
+           x="406"
+           y="644"
+           style="font-family:'Courier New',monospace;font-size:11px;           fill:#00D9FF;letter-spacing:4px;text-transform:uppercase"
+           id="text66">Time</svg:text>
+        <svg:text
+           x="406"
+           y="676"
+           style="font-family:'Arial Black','Impact',sans-serif;           font-size:22px;font-weight:900;fill:#F4F7FF;letter-spacing:1px"
+           id="text67">6:00 – 9:00 PM</svg:text>
+        <svg:text
+           x="406"
+           y="696"
+           style="font-family:'Courier New', monospace;font-size:11px;fill:url(#linearGradient188);letter-spacing:1px"
+           id="text68">Doors open 5:45 PM</svg:text>
+      </svg:g>
+      <!-- LOCATION -->
+      <svg:g
+         id="detail_location">
+        <svg:line
+           x1="700"
+           y1="630"
+           x2="700"
+           y2="700"
+           style="stroke:#00D9FF;stroke-width:0.75;stroke-opacity:0.18"
+           id="line68" />
+        <svg:text
+           x="730"
+           y="644"
+           style="font-family:'Courier New',monospace;font-size:11px;           fill:#00D9FF;letter-spacing:4px;text-transform:uppercase"
+           id="text69">Location</svg:text>
+        <svg:text
+           x="730"
+           y="676"
+           style="font-family:'Arial Black','Impact',sans-serif;           font-size:22px;font-weight:900;fill:#F4F7FF;letter-spacing:1px"
+           id="text70">Bldg K · Room 204</svg:text>
+        <svg:text
+           x="730"
+           y="696"
+           style="font-family:'Courier New', monospace;font-size:11px;fill:url(#linearGradient186);letter-spacing:1px"
+           id="text71">Main Campus · Free Admission</svg:text>
+      </svg:g>
+    </svg:g>
+    <!-- Description blurb -->
+    <svg:text
+       id="description_line1"
+       x="54"
+       y="748"
+       style="font-size:18px;line-height:1.6;font-family:Arial, sans-serif;letter-spacing:0.5px;fill:url(#linearGradient154)"
+       inkscape:highlight-color="#fddae4">A hands-on collaborative evening where developers and designers build, brand, and ship together.</svg:text>
+    <svg:text
+       id="description_line2"
+       x="54"
+       y="774"
+       style="font-size:13px;font-family:'Courier New', monospace;letter-spacing:3px;fill:url(#linearGradient156)">Workshops · Portfolio Reviews · Networking</svg:text>
+    <svg:text
+       xml:space="preserve"
+       id="text153"
+       style="fill:#000000;text-orientation:auto;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect153)" />
+    <svg:text
+       xml:space="preserve"
+       id="text156"
+       style="fill:#ffefef;text-orientation:auto;writing-mode:lr-tb;direction:ltr;fill-opacity:1;white-space:pre;shape-inside:url(#rect156)" />
+    <svg:text
+       xml:space="preserve"
+       id="text188"
+       style="fill:#fffcf4;text-orientation:auto;writing-mode:lr-tb;direction:ltr;fill-opacity:1;white-space:pre;shape-inside:url(#rect188)" />
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 05 · ICON SYSTEM
+       All 10 icons are pure SVG paths, 54px grid.
+       Cyan = tech / primary   Amber = design / accent
+       Stroke weight: 2.4px main, 2px secondary
+       Corner radius: 3px on rect elements
+       Edit individual icon groups freely.
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="05 · Icon System (10 Icons)"
+     inkscape:groupmode="layer"
+     id="layer_icons">
+    <!-- Icon strip label -->
+    <svg:text
+       id="icon_strip_label"
+       x="54"
+       y="826"
+       style="font-family:'Courier New',monospace;font-size:11px;               fill:rgba(0,217,255,0.38);letter-spacing:4px;text-transform:uppercase">
+      Club Icon System  ·  10 Icons
+    </svg:text>
+    <svg:line
+       x1="320"
+       y1="820"
+       x2="1026"
+       y2="820"
+       style="stroke:#00D9FF;stroke-width:0.6;stroke-opacity:0.16"
+       id="line71" />
+    <!-- Icon horizontal spacing: 54px icons, 96px centers, starting at x=54
+         Centers: 81, 177, 273, 369, 465, 561, 657, 753, 849, 945
+         Icon tops at y=848 -->
+    <!-- ═══ ICON 01: CODE < /> ═══ -->
+    <svg:g
+       id="icon_code"
+       inkscape:label="Icon 01 – Code / Development"
+       transform="translate(54,848)">
+      <svg:polyline
+         id="icon_code_left"
+         points="20,8 8,27 20,46"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:polyline
+         id="icon_code_right"
+         points="34,8 46,27 34,46"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:line
+         id="icon_code_slash"
+         x1="30"
+         y1="4"
+         x2="24"
+         y2="50"
+         style="stroke:#FFB800;stroke-width:2;stroke-linecap:round" />
+      <svg:text
+         x="27"
+         y="68"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient160);letter-spacing:1px"
+         id="text72">CODE</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 02: CLOUD ═══ -->
+    <svg:g
+       id="icon_cloud"
+       inkscape:label="Icon 02 – Cloud Computing"
+       transform="matrix(0.99833304,0,0,1.0850043,150.03951,847.37906)">
+      <svg:path
+         id="icon_cloud_body"
+         d="m 13,34 c -4.5,0 -8,-3.5 -8,-8 0,-4 2.8,-7.5 6.8,-8.4 -0.1,-0.5 -0.2,-1.1 -0.2,-1.8 0,-4.3 3.5,-7.8 7.8,-7.8 3.1,0 5.7,1.8 7.1,4.4 1,-0.6 2.3,-1 3.7,-1 3.9,0 7.1,3.2 7.1,7.1 0,0.3 0,0.6 -0.1,0.8 3,0.9 5.2,3.6 5.2,6.8 0,4.2 -3.4,7.9 -7.4,7.9 z"
+         style="fill:none;stroke:#00d9ff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:line
+         x1="19"
+         y1="43"
+         x2="19"
+         y2="34"
+         style="stroke:#00d9ff;stroke-width:2.2;stroke-linecap:round"
+         id="line72" />
+      <svg:line
+         x1="27"
+         y1="46"
+         x2="27"
+         y2="34"
+         style="stroke:#00d9ff;stroke-width:2.2;stroke-linecap:round"
+         id="line73" />
+      <svg:line
+         x1="35"
+         y1="43"
+         x2="35"
+         y2="34"
+         style="stroke:#00d9ff;stroke-width:2.2;stroke-linecap:round"
+         id="line74" />
+      <svg:circle
+         cx="19"
+         cy="44"
+         r="2.5"
+         style="fill:#ffb800"
+         id="circle74" />
+      <svg:circle
+         cx="27"
+         cy="47"
+         r="2.5"
+         style="fill:#ffb800"
+         id="circle75" />
+      <svg:circle
+         cx="35"
+         cy="44"
+         r="2.5"
+         style="fill:#ffb800"
+         id="circle76" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-size:9px;font-family:'Courier New', monospace;letter-spacing:1px;fill:url(#linearGradient162)"
+         id="text76">CLOUD</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 03: SECURITY SHIELD ═══ -->
+    <svg:g
+       id="icon_security"
+       inkscape:label="Icon 03 – Cybersecurity"
+       transform="translate(246,848)">
+      <svg:path
+         id="icon_shield"
+         d="M27,6 L44,14 L44,27 C44,36 36,44 27,46 C18,44 10,36 10,27 L10,14 Z"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:polyline
+         id="icon_shield_check"
+         points="19,26 24,31 35,21"
+         style="fill:none;stroke:#FFB800;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-size:9px;font-family:'Courier New', monospace;letter-spacing:1px;fill:url(#linearGradient164)"
+         id="text77"
+         inkscape:highlight-color="#ffe6e6">SECURITY</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 04: PEN NIB ═══ -->
+    <svg:g
+       id="icon_design"
+       inkscape:label="Icon 04 – Graphic Design / Pen Nib"
+       transform="translate(342,848)">
+      <svg:path
+         id="icon_nib_outer"
+         d="M27,45 L8,27 L18,8 L36,8 L46,27 Z"
+         style="fill:none;stroke:#FFB800;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:line
+         id="icon_nib_stem"
+         x1="27"
+         y1="45"
+         x2="27"
+         y2="31"
+         style="stroke:#FFB800;stroke-width:2.2;stroke-linecap:round" />
+      <svg:polyline
+         id="icon_nib_inner"
+         points="18,8 27,31 36,8"
+         style="fill:none;stroke:#FFB800;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:circle
+         cx="27"
+         cy="31"
+         r="3.5"
+         style="fill:#FFB800;fill-opacity:0.7;stroke:none"
+         id="circle77" />
+      <svg:circle
+         cx="27"
+         cy="45"
+         r="2.5"
+         style="fill:#00D9FF;stroke:none"
+         id="circle78" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient166);letter-spacing:1px"
+         id="text78">DESIGN</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 05: BRANDING / SWATCHES ═══ -->
+    <svg:g
+       id="icon_branding"
+       inkscape:label="Icon 05 – Color Branding / Swatches"
+       transform="translate(438,848)">
+      <svg:rect
+         x="7"
+         y="10"
+         width="15"
+         height="32"
+         rx="3"
+         style="fill:none;stroke:#00D9FF;stroke-width:2"
+         id="rect78" />
+      <svg:rect
+         x="20"
+         y="14"
+         width="15"
+         height="28"
+         rx="3"
+         style="fill:none;stroke:#00D9FF;stroke-width:2"
+         transform="rotate(-12,27,27)"
+         id="rect79" />
+      <svg:rect
+         x="31"
+         y="18"
+         width="15"
+         height="24"
+         rx="3"
+         style="fill:none;stroke:#FFB800;stroke-width:2"
+         transform="rotate(-24,38,30)"
+         id="rect80" />
+      <svg:circle
+         cx="14.5"
+         cy="37"
+         r="3"
+         style="fill:#00D9FF;fill-opacity:0.65"
+         id="circle80" />
+      <svg:circle
+         cx="27"
+         cy="39"
+         r="3"
+         style="fill:#00D9FF;fill-opacity:0.65"
+         id="circle81" />
+      <svg:circle
+         cx="37"
+         cy="37"
+         r="3"
+         style="fill:#FFB800;fill-opacity:0.7"
+         id="circle82" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient168);letter-spacing:1px"
+         id="text82">BRANDING</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 06: NETWORK NODES ═══ -->
+    <svg:g
+       id="icon_network"
+       inkscape:label="Icon 06 – Networking / Node Graph"
+       transform="translate(534,848)">
+      <svg:circle
+         cx="27"
+         cy="27"
+         r="5"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.2"
+         id="circle83" />
+      <svg:circle
+         cx="10"
+         cy="14"
+         r="3.5"
+         style="fill:none;stroke:#00D9FF;stroke-width:1.8"
+         id="circle84" />
+      <svg:circle
+         cx="44"
+         cy="14"
+         r="3.5"
+         style="fill:none;stroke:#00D9FF;stroke-width:1.8"
+         id="circle85" />
+      <svg:circle
+         cx="10"
+         cy="40"
+         r="3.5"
+         style="fill:none;stroke:#FFB800;stroke-width:1.8"
+         id="circle86" />
+      <svg:circle
+         cx="44"
+         cy="40"
+         r="3.5"
+         style="fill:none;stroke:#FFB800;stroke-width:1.8"
+         id="circle87" />
+      <svg:circle
+         cx="27"
+         cy="6"
+         r="3"
+         style="fill:none;stroke:#FFB800;stroke-width:1.8"
+         id="circle88" />
+      <svg:line
+         x1="27"
+         y1="27"
+         x2="10"
+         y2="14"
+         style="stroke:rgba(0,217,255,0.55);stroke-width:1.2"
+         id="line88" />
+      <svg:line
+         x1="27"
+         y1="27"
+         x2="44"
+         y2="14"
+         style="stroke:rgba(0,217,255,0.55);stroke-width:1.2"
+         id="line89" />
+      <svg:line
+         x1="27"
+         y1="27"
+         x2="10"
+         y2="40"
+         style="stroke:rgba(255,184,0,0.55);stroke-width:1.2"
+         id="line90" />
+      <svg:line
+         x1="27"
+         y1="27"
+         x2="44"
+         y2="40"
+         style="stroke:rgba(255,184,0,0.55);stroke-width:1.2"
+         id="line91" />
+      <svg:line
+         x1="27"
+         y1="27"
+         x2="27"
+         y2="6"
+         style="stroke:rgba(255,184,0,0.55);stroke-width:1.2"
+         id="line92" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient170);letter-spacing:1px"
+         id="text92">NETWORK</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 07: MENTORSHIP / PEOPLE ═══ -->
+    <svg:g
+       id="icon_mentorship"
+       inkscape:label="Icon 07 – Mentorship / Team"
+       transform="translate(630,848)">
+      <svg:circle
+         cx="18"
+         cy="14"
+         r="6"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.2"
+         id="circle92" />
+      <svg:circle
+         cx="36"
+         cy="14"
+         r="6"
+         style="fill:none;stroke:#FFB800;stroke-width:2.2"
+         id="circle93" />
+      <svg:path
+         d="M4,42 C4,33 10,27 18,27 C21,27 23.8,28 26,29.8"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.2;stroke-linecap:round"
+         id="path93" />
+      <svg:path
+         d="M50,42 C50,33 44,27 36,27 C33,27 30.2,28 28,29.8"
+         style="fill:none;stroke:#FFB800;stroke-width:2.2;stroke-linecap:round"
+         id="path94" />
+      <svg:line
+         x1="27"
+         y1="30"
+         x2="27"
+         y2="42"
+         style="stroke:rgba(244,247,255,0.15);stroke-width:1;stroke-dasharray:3,3"
+         id="line94" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient172);letter-spacing:1px"
+         id="text94">MENTORSHIP</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 08: UI DESIGN / LAYOUT ═══ -->
+    <svg:g
+       id="icon_ui"
+       inkscape:label="Icon 08 – UI Design / Layout Grid"
+       transform="translate(726,848)">
+      <svg:rect
+         x="7"
+         y="7"
+         width="40"
+         height="40"
+         rx="4"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.2"
+         id="rect94" />
+      <svg:rect
+         x="7"
+         y="7"
+         width="40"
+         height="12"
+         rx="4"
+         style="fill:rgba(0,217,255,0.1);stroke:none"
+         id="rect95" />
+      <svg:line
+         x1="7"
+         y1="19"
+         x2="47"
+         y2="19"
+         style="stroke:#00D9FF;stroke-width:1.4;stroke-opacity:0.7"
+         id="line95" />
+      <svg:line
+         x1="27"
+         y1="19"
+         x2="27"
+         y2="47"
+         style="stroke:#00D9FF;stroke-width:1.4;stroke-opacity:0.7"
+         id="line96" />
+      <!-- UI card placeholder shapes -->
+      <svg:rect
+         x="29"
+         y="22"
+         width="14"
+         height="7"
+         rx="1.5"
+         style="fill:rgba(255,184,0,0.18);stroke:#FFB800;stroke-width:1"
+         id="rect96" />
+      <svg:rect
+         x="29"
+         y="32"
+         width="14"
+         height="12"
+         rx="1.5"
+         style="fill:rgba(0,217,255,0.08);stroke:#00D9FF;stroke-width:1"
+         id="rect97" />
+      <svg:rect
+         x="9"
+         y="22"
+         width="15"
+         height="22"
+         rx="1.5"
+         style="fill:rgba(0,217,255,0.08);stroke:#00D9FF;stroke-width:1"
+         id="rect98" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient174);letter-spacing:1px"
+         id="text98">UI DESIGN</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 09: LIGHTBULB / PROJECTS ═══ -->
+    <svg:g
+       id="icon_projects"
+       inkscape:label="Icon 09 – Projects / Innovation"
+       transform="translate(822,848)">
+      <svg:path
+         id="icon_bulb"
+         d="M27,8 C19,8 13,14 13,22 C13,27.5 16,32.5 20.5,35 L20.5,38 L33.5,38 L33.5,35 C38,32.5 41,27.5 41,22 C41,14 35,8 27,8 Z"
+         style="fill:none;stroke:#FFB800;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round" />
+      <svg:line
+         x1="20.5"
+         y1="38"
+         x2="33.5"
+         y2="38"
+         style="stroke:#FFB800;stroke-width:2.2;stroke-linecap:round"
+         id="line98" />
+      <svg:line
+         x1="22"
+         y1="42"
+         x2="32"
+         y2="42"
+         style="stroke:#FFB800;stroke-width:2;stroke-linecap:round"
+         id="line99" />
+      <svg:line
+         x1="24"
+         y1="46"
+         x2="30"
+         y2="46"
+         style="stroke:#FFB800;stroke-width:2;stroke-linecap:round"
+         id="line100" />
+      <!-- Light rays -->
+      <svg:line
+         x1="27"
+         y1="13"
+         x2="27"
+         y2="18"
+         style="stroke:#00D9FF;stroke-width:1.8;stroke-linecap:round"
+         id="line101" />
+      <svg:line
+         x1="18"
+         y1="16"
+         x2="21"
+         y2="20"
+         style="stroke:#00D9FF;stroke-width:1.8;stroke-linecap:round"
+         id="line102" />
+      <svg:line
+         x1="36"
+         y1="16"
+         x2="33"
+         y2="20"
+         style="stroke:#00D9FF;stroke-width:1.8;stroke-linecap:round"
+         id="line103" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient176);letter-spacing:1px"
+         id="text103">PROJECTS</svg:text>
+    </svg:g>
+    <!-- ═══ ICON 10: TARGET / CAREER PREP ═══ -->
+    <svg:g
+       id="icon_career"
+       inkscape:label="Icon 10 – Career Prep / Goals"
+       transform="translate(918,848)">
+      <svg:circle
+         cx="27"
+         cy="27"
+         r="20"
+         style="fill:none;stroke:#00D9FF;stroke-width:2.2"
+         id="circle103" />
+      <svg:circle
+         cx="27"
+         cy="27"
+         r="13"
+         style="fill:none;stroke:#00D9FF;stroke-width:1.6;stroke-opacity:0.65"
+         id="circle104" />
+      <svg:circle
+         cx="27"
+         cy="27"
+         r="6"
+         style="fill:none;stroke:#FFB800;stroke-width:2.4"
+         id="circle105" />
+      <!-- Arrow into target from top-right -->
+      <svg:line
+         x1="40"
+         y1="14"
+         x2="30"
+         y2="24"
+         style="stroke:#FFB800;stroke-width:2.2;stroke-linecap:round"
+         id="line105" />
+      <svg:polyline
+         points="35,14 40,14 40,19"
+         style="fill:none;stroke:#FFB800;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round"
+         id="polyline105" />
+      <svg:text
+         x="27"
+         y="62"
+         text-anchor="middle"
+         style="font-family:'Courier New', monospace;font-size:9px;fill:url(#linearGradient178);letter-spacing:1px"
+         id="text105">CAREER</svg:text>
+    </svg:g>
+    <svg:text
+       xml:space="preserve"
+       id="text157"
+       style="fill:url(#linearGradient158);text-orientation:auto;writing-mode:lr-tb;direction:ltr;fill-opacity:1;white-space:pre;shape-inside:url(#rect157)" />
+    <svg:text
+       xml:space="preserve"
+       id="text162"
+       style="fill:#ffefef;text-orientation:auto;writing-mode:lr-tb;direction:ltr;fill-opacity:1;white-space:pre;shape-inside:url(#rect162)" />
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 06 · CTA + QR CODE BLOCK
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="06 · CTA + QR Code"
+     inkscape:groupmode="layer"
+     id="layer_cta">
+    <!-- CTA PILL BUTTON -->
+    <svg:g
+       id="cta_button"
+       transform="matrix(1.305934,0,0,1,-16.73972,0)">
+      <svg:rect
+         id="cta_bg"
+         x="70.112534"
+         y="1033.1569"
+         width="340"
+         height="54"
+         style="fill:#00d9ff;stroke:none" />
+      <!-- Arrow icon inside CTA -->
+      <svg:polygon
+         id="cta_arrow"
+         points="84,1067 88,1063 84,1059 "
+         style="fill:#060d1a;stroke:none" />
+      <svg:text
+         id="cta_text"
+         x="100"
+         y="1067"
+         style="font-weight:900;font-size:17px;font-family:'Arial Black', Impact, sans-serif;letter-spacing:3px;text-transform:uppercase;fill:#060d1a">Register Now —It's Free</svg:text>
+    </svg:g>
+    <!-- CTA sub text -->
+    <svg:text
+       id="cta_subtext"
+       x="54"
+       y="1108"
+       style="font-size:13px;font-family:'Courier New', monospace;letter-spacing:3px;fill:url(#linearGradient180)">· owllife.kennesaw.edu/organization/<svg:tspan
+   style="fill:#ffefef;fill-opacity:1"
+   id="tspan181"><svg:tspan
+   style="fill:#ffefef;fill-opacity:0.980874"
+   id="tspan182">ksbcp|</svg:tspan> All majors welcome</svg:tspan></svg:text>
+    <!-- QR CODE BOX (replace inner content with real QR) -->
+    <svg:g
+       id="qr_block"
+       transform="translate(836,1020)">
+      <!-- QR container -->
+      <svg:rect
+         id="qr_bg"
+         x="0"
+         y="0"
+         width="132"
+         height="132"
+         style="fill:rgba(0,217,255,0.03);stroke:#00D9FF;stroke-width:1.5;stroke-opacity:0.35" />
+      <!-- QR corner brackets -->
+      <svg:line
+         x1="0"
+         y1="0"
+         x2="16"
+         y2="0"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line106" />
+      <svg:line
+         x1="0"
+         y1="0"
+         x2="0"
+         y2="16"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line107" />
+      <svg:line
+         x1="132"
+         y1="0"
+         x2="116"
+         y2="0"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line108" />
+      <svg:line
+         x1="132"
+         y1="0"
+         x2="132"
+         y2="16"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line109" />
+      <svg:line
+         x1="0"
+         y1="132"
+         x2="16"
+         y2="132"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line110" />
+      <svg:line
+         x1="0"
+         y1="132"
+         x2="0"
+         y2="116"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line111" />
+      <svg:line
+         x1="132"
+         y1="132"
+         x2="116"
+         y2="132"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line112" />
+      <svg:line
+         x1="132"
+         y1="132"
+         x2="132"
+         y2="116"
+         style="stroke:#00D9FF;stroke-width:2.5"
+         id="line113" />
+      <!-- QR position squares (replace entire inner area with real QR code in Inkscape) -->
+      <!-- Top-left position square -->
+      <svg:rect
+         x="10"
+         y="10"
+         width="36"
+         height="36"
+         rx="2"
+         style="fill:none;stroke:rgba(0,217,255,0.5);stroke-width:2"
+         id="rect113" />
+      <svg:rect
+         x="16"
+         y="16"
+         width="24"
+         height="24"
+         rx="1"
+         style="fill:rgba(0,217,255,0.15)"
+         id="rect114" />
+      <svg:rect
+         x="20"
+         y="20"
+         width="16"
+         height="16"
+         rx="1"
+         style="fill:rgba(0,217,255,0.35)"
+         id="rect115" />
+      <!-- Top-right position square -->
+      <svg:rect
+         x="86"
+         y="10"
+         width="36"
+         height="36"
+         rx="2"
+         style="fill:none;stroke:rgba(0,217,255,0.5);stroke-width:2"
+         id="rect116" />
+      <svg:rect
+         x="92"
+         y="16"
+         width="24"
+         height="24"
+         rx="1"
+         style="fill:rgba(0,217,255,0.15)"
+         id="rect117" />
+      <svg:rect
+         x="96"
+         y="20"
+         width="16"
+         height="16"
+         rx="1"
+         style="fill:rgba(0,217,255,0.35)"
+         id="rect118" />
+      <!-- Bottom-left position square -->
+      <svg:rect
+         x="10"
+         y="86"
+         width="36"
+         height="36"
+         rx="2"
+         style="fill:none;stroke:rgba(0,217,255,0.5);stroke-width:2"
+         id="rect119" />
+      <svg:rect
+         x="16"
+         y="92"
+         width="24"
+         height="24"
+         rx="1"
+         style="fill:rgba(0,217,255,0.15)"
+         id="rect120" />
+      <svg:rect
+         x="20"
+         y="96"
+         width="16"
+         height="16"
+         rx="1"
+         style="fill:rgba(0,217,255,0.35)"
+         id="rect121" />
+      <!-- Data modules (stylized) -->
+      <svg:rect
+         x="54"
+         y="10"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.45)"
+         id="rect122" />
+      <svg:rect
+         x="64"
+         y="10"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.3)"
+         id="rect123" />
+      <svg:rect
+         x="54"
+         y="20"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.2)"
+         id="rect124" />
+      <svg:rect
+         x="64"
+         y="20"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.3)"
+         id="rect125" />
+      <svg:rect
+         x="54"
+         y="30"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.35)"
+         id="rect126" />
+      <svg:rect
+         x="64"
+         y="30"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.25)"
+         id="rect127" />
+      <svg:rect
+         x="10"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.4)"
+         id="rect128" />
+      <svg:rect
+         x="20"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.25)"
+         id="rect129" />
+      <svg:rect
+         x="54"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.3)"
+         id="rect130" />
+      <svg:rect
+         x="64"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.35)"
+         id="rect131" />
+      <svg:rect
+         x="86"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.25)"
+         id="rect132" />
+      <svg:rect
+         x="96"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.3)"
+         id="rect133" />
+      <svg:rect
+         x="106"
+         y="54"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.2)"
+         id="rect134" />
+      <svg:rect
+         x="54"
+         y="64"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.2)"
+         id="rect135" />
+      <svg:rect
+         x="86"
+         y="64"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.3)"
+         id="rect136" />
+      <svg:rect
+         x="96"
+         y="64"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.2)"
+         id="rect137" />
+      <svg:rect
+         x="54"
+         y="86"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.3)"
+         id="rect138" />
+      <svg:rect
+         x="64"
+         y="86"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.2)"
+         id="rect139" />
+      <svg:rect
+         x="86"
+         y="86"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.4)"
+         id="rect140" />
+      <svg:rect
+         x="106"
+         y="86"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.25)"
+         id="rect141" />
+      <svg:rect
+         x="54"
+         y="96"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.25)"
+         id="rect142" />
+      <svg:rect
+         x="96"
+         y="96"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.3)"
+         id="rect143" />
+      <svg:rect
+         x="64"
+         y="106"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(255,184,0,0.35)"
+         id="rect144" />
+      <svg:rect
+         x="86"
+         y="106"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.2)"
+         id="rect145" />
+      <svg:rect
+         x="106"
+         y="106"
+         width="8"
+         height="8"
+         rx="1"
+         style="fill:rgba(0,217,255,0.35)"
+         id="rect146" />
+      <!-- QR label -->
+      <svg:text
+         x="66"
+         y="148"
+         text-anchor="middle"
+         style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(0,217,255,0.38);letter-spacing:2px"
+         id="text146">SCAN TO REGISTER</svg:text>
+    </svg:g>
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 07 · FOOTER
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="07 · Footer"
+     inkscape:groupmode="layer"
+     id="layer_footer">
+    <!-- Footer top rule -->
+    <svg:line
+       x1="0"
+       y1="1284"
+       x2="1080"
+       y2="1284"
+       style="stroke:#00D9FF;stroke-width:1;stroke-opacity:0.15"
+       id="line146" />
+    <!-- Footer background -->
+    <svg:rect
+       x="0"
+       y="1284"
+       width="1080"
+       height="66"
+       style="fill:rgba(0,0,0,0.3);stroke:none"
+       id="rect147" />
+    <!-- Social handles left -->
+    <svg:text
+       id="footer_social"
+       x="54"
+       y="1324"
+       style="font-family:'Courier New',monospace;font-size:14px;               fill:rgba(180,200,230,0.42);letter-spacing:3px">@ksbcsp  ·  @ks_designteam</svg:text>
+    <!-- Separator dot -->
+    <svg:circle
+       cx="540"
+       cy="1320"
+       r="3"
+       style="fill:#00D9FF;fill-opacity:0.35"
+       id="circle147" />
+    <!-- URL right -->
+    <svg:text
+       id="footer_url"
+       x="1026"
+       y="1324"
+       text-anchor="end"
+       style="font-size:14px;font-family:'Courier New', monospace;letter-spacing:3px"><svg:tspan
+         style="fill:#fef0f0;fill-opacity:0.980874"
+         id="tspan183">owllife.kennesaw.edu</svg:tspan></svg:text>
+  </svg:g>
+  <!-- ═══════════════════════════════════════════════════
+       LAYER 99 · DESIGN NOTES (hide before export)
+  ═══════════════════════════════════════════════════ -->
+  <svg:g
+     inkscape:label="99 · Notes (hide before export)"
+     inkscape:groupmode="layer"
+     id="layer_notes"
+     style="display:inline">
+    <!-- Margin guides -->
+    <svg:rect
+       x="54"
+       y="54"
+       width="972"
+       height="1242"
+       style="fill:none;stroke:#FF4560;stroke-width:0.5;stroke-opacity:0.2;stroke-dasharray:4,6"
+       id="rect148" />
+    <!-- Center axis -->
+    <svg:line
+       x1="540"
+       y1="0"
+       x2="540"
+       y2="1350"
+       style="stroke:#FF4560;stroke-width:0.5;stroke-opacity:0.15;stroke-dasharray:4,8"
+       id="line148" />
+    <!-- Typography annotations -->
+    <svg:text
+       x="1040"
+       y="318"
+       text-anchor="end"
+       style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4);letter-spacing:1px"
+       id="text148">← 196px / 900wt</svg:text>
+    <svg:text
+       x="1040"
+       y="492"
+       text-anchor="end"
+       style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4);letter-spacing:1px"
+       id="text149">← 196px / Amber</svg:text>
+    <!-- Icon system annotation -->
+    <svg:text
+       x="54"
+       y="840"
+       style="font-family:'Courier New',monospace;font-size:7px;fill:rgba(255,69,96,0.35);letter-spacing:1px"
+       id="text150">↓ Icons: 54px grid, 2.4px stroke, round linecap — select any icon group to reuse</svg:text>
+    <!-- QR annotation -->
+    <svg:text
+       x="836"
+       y="1016"
+       style="font-family:'Courier New',monospace;font-size:7px;fill:rgba(255,69,96,0.35);letter-spacing:1px"
+       id="text151">Replace QR placeholder with real code (use Extensions &gt; Render &gt; Barcode)</svg:text>
+    <!-- Title block -->
+    <svg:rect
+       x="0"
+       y="1340"
+       width="480"
+       height="10"
+       style="fill:#FF4560;fill-opacity:0.08"
+       id="rect151" />
+    <svg:text
+       x="6"
+       y="1348"
+       style="font-family:'Courier New',monospace;font-size:7px;fill:rgba(255,69,96,0.4);letter-spacing:2px"
+       id="text152">
+      KSBCSP × DESIGN TEAM · EVENT POSTER · 1080×1350px · INKSCAPE SVG
+    </svg:text>
+  </svg:g>
+</svg:svg>

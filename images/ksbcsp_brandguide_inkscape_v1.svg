@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="brand_guide_root"
+   version="1.1"
+   inkscape:version="1.3"
+   sodipodi:docname="ksbcsp_brand_guide_v1.svg"
+   width="2800"
+   height="1980"
+   viewBox="0 0 2800 1980">
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       KSBCSP × Design Team — Visual Identity System v1.0
+       One-Page Brand Guide · A2 Landscape · 2800 × 1980 px
+       ─────────────────────────────────────────────────────────────────
+       LAYER MAP
+       ─────────────────────────────────────────────────────────────────
+       00 · Background       paper fill + subtle dot grid
+       01 · Grid Rules       all section dividers + column lines
+       02 · Page Header      title block + mini logo + meta
+       03 · Logo Suite       4 logo variants in labelled cells
+       04 · Color System     5 swatches + tint strips
+       05 · Typography       3 typeface cards + type scale bar
+       06 · Clear Space      exclusion-zone diagram + min-size table
+       07 · Do / Dont        6 usage rule cards (3 do + 3 dont)
+       08 · Applications     social banner + flyer + sticker mockups
+       09 · Footer           bottom bar
+       99 · Notes            guides & annotations — HIDE BEFORE EXPORT
+       ─────────────────────────────────────────────────────────────────
+       COLOR TOKENS
+         #FAFAF7  Warm Paper     (background)
+         #F0EEE8  Paper 2        (alt surfaces)
+         #0D0F14  Ink            (primary text)
+         #3A3D45  Ink 2          (secondary text)
+         #060D1A  Deep Navy      (logo badge, dark bg)
+         #0C1628  Navy Mid       (elevated panels)
+         #00C4E8  Electric Cyan  (primary accent)
+         #F0A500  Amber Gold     (secondary accent / bolt)
+       ─────────────────────────────────────────────────────────────────
+       EDITING WORKFLOW
+       1. Expand any layer in the Layers panel (Shift+Ctrl+L)
+       2. Find text marked  ★ EDIT  in Object Properties
+       3. Double-click to edit text content
+       4. Never recreate the logo from type — use this master SVG
+       5. Hide layer 99 before exporting to PNG / PDF
+       ═══════════════════════════════════════════════════════════════════ -->
+
+  <title>KSBCSP Visual Identity System v1.0</title>
+  <desc>One-page brand guide. Sections: Logo Suite, Color System, Typography, Clear Space, Do/Don't, Applications.</desc>
+
+  <sodipodi:namedview
+     id="namedview_main"
+     pagecolor="#FAFAF7"
+     bordercolor="#00C4E8"
+     borderopacity="0.18"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="3"
+     inkscape:zoom="0.4"
+     inkscape:cx="1400"
+     inkscape:cy="990"
+     inkscape:document-units="px"
+     inkscape:current-layer="lyr_header"
+     showgrid="true"
+     units="px">
+    <!-- 20-px baseline grid, aligned to 80-px margin -->
+    <inkscape:grid
+       type="xygrid"
+       originx="80"
+       originy="0"
+       spacingx="20"
+       spacingy="20"
+       color="#00C4E8"
+       opacity="0.04"
+       snapvisiblegridlinesonly="true"/>
+  </sodipodi:namedview>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SHARED DEFS
+  ═══════════════════════════════════════════════════════ -->
+  <defs id="shared_defs">
+
+    <!-- Warm paper dot grid (20 px repeat) -->
+    <pattern id="pat_paper_dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#0D0F14" opacity="0.07"/>
+    </pattern>
+
+    <!-- ── LOGO GRADIENTS ── -->
+    <!-- Bolt: yellow → amber → orange -->
+    <linearGradient id="grad_bolt" x1="0.65" y1="0" x2="0.2" y2="1">
+      <stop offset="0%"   stop-color="#FFE84D"/>
+      <stop offset="50%"  stop-color="#F0A500"/>
+      <stop offset="100%" stop-color="#E06800"/>
+    </linearGradient>
+
+    <!-- Badge ring: pale gold → amber -->
+    <linearGradient id="grad_ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#FFE84D"/>
+      <stop offset="100%" stop-color="#F0A500"/>
+    </linearGradient>
+
+    <!-- Bolt glow -->
+    <filter id="flt_bolt_glow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+
+    <!-- Subtle card shadow -->
+    <filter id="flt_card_shadow" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0D0F14" flood-opacity="0.10"/>
+    </filter>
+
+    <!-- Sticker hex clip -->
+    <clipPath id="clip_sticker" clipPathUnits="userSpaceOnUse">
+      <!-- Inner dark body of sticker at approx 2368,1440 centre -->
+      <polygon points="2368,1340 2434,1378 2434,1454 2368,1492 2302,1454 2302,1378"/>
+    </clipPath>
+
+    <!-- Busy background pattern (for don't card) -->
+    <pattern id="pat_busy" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#F0A500" opacity="0.28"/>
+      <rect x="4" y="4" width="4" height="4" fill="#00C4E8" opacity="0.28"/>
+    </pattern>
+
+  </defs>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 00 · BACKGROUND
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="00 · Background" inkscape:groupmode="layer" id="lyr_bg">
+    <rect id="bg_paper" x="0" y="0" width="2800" height="1980" style="fill:#FAFAF7;stroke:none"/>
+    <rect id="bg_dots"  x="0" y="0" width="2800" height="1980" style="fill:url(#pat_paper_dots);stroke:none"/>
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 01 · GRID RULES
+       All structural lines. Edit stroke-opacity to adjust visibility.
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="01 · Grid Rules" inkscape:groupmode="layer" id="lyr_rules">
+
+    <!-- Page border -->
+    <rect id="page_border" x="1" y="1" width="2798" height="1978"
+          style="fill:none;stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+
+    <!-- ── Horizontal section dividers ── -->
+    <!-- After header (y=280) -->
+    <line id="div_after_header"  x1="0" y1="280"  x2="2800" y2="280"  style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+    <!-- After logo suite (y=620) -->
+    <line id="div_after_logos"   x1="0" y1="620"  x2="2800" y2="620"  style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+    <!-- After color (y=890) -->
+    <line id="div_after_color"   x1="0" y1="890"  x2="2800" y2="890"  style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+    <!-- After typography (y=1220) -->
+    <line id="div_after_type"    x1="0" y1="1220" x2="2800" y2="1220" style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+    <!-- After clear space (y=1490) (split left/right: left=clearspace, right=do-dont shares same row) -->
+    <!-- Do/dont runs 1220→1540, applications run 1540→1900 -->
+    <line id="div_after_dd"      x1="0" y1="1540" x2="2800" y2="1540" style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+    <!-- Footer -->
+    <line id="div_footer"        x1="0" y1="1900" x2="2800" y2="1900" style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+
+    <!-- ── Section-head inner rules (below section labels) ── -->
+    <line id="sh_logos"  x1="80" y1="336" x2="2720" y2="336" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+    <line id="sh_color"  x1="80" y1="676" x2="2720" y2="676" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+    <line id="sh_type"   x1="80" y1="946" x2="2720" y2="946" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+    <line id="sh_cs"     x1="80" y1="1276" x2="1360" y2="1276" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+    <line id="sh_dd"     x1="1400" y1="1276" x2="2720" y2="1276" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+    <line id="sh_apps"   x1="80" y1="1596" x2="2720" y2="1596" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+
+    <!-- Centre column divider between clear-space and do/dont (x=1380) -->
+    <line id="col_div_cs_dd" x1="1380" y1="1220" x2="1380" y2="1540" style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 02 · PAGE HEADER
+       y = 0 → 280
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="02 · Page Header" inkscape:groupmode="layer" id="lyr_header">
+
+    <!-- Left panel (title block) -->
+    <rect id="header_left_bg" x="0" y="0" width="1800" height="280"
+          style="fill:#FAFAF7;stroke:none"/>
+
+    <!-- Right panel (pale paper tint) -->
+    <rect id="header_right_bg" x="1800" y="0" width="1000" height="280"
+          style="fill:#F0EEE8;stroke:none"/>
+
+    <!-- Vertical divider at x=1800 -->
+    <line x1="1800" y1="0" x2="1800" y2="280" style="stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.12"/>
+
+    <!-- Cyan top accent stripe -->
+    <rect id="header_cyan_stripe" x="0" y="0" width="1800" height="4"
+          style="fill:#00C4E8;fill-opacity:0.85;stroke:none"/>
+
+    <!-- Eyebrow -->
+    <!-- Tick mark before eyebrow -->
+    <line x1="80" y1="56" x2="106" y2="56" style="stroke:#00C4E8;stroke-width:2;stroke-opacity:0.8"/>
+    <text id="hdr_eyebrow"
+          x="116" y="62"
+          inkscape:label="★ EDIT: Club name + doc type"
+          style="font-family:'Arial',sans-serif;font-size:16px;fill:#00C4E8;fill-opacity:0.7;letter-spacing:5px;text-transform:uppercase">KSBCSP × DESIGN TEAM — BRAND DOCUMENT</text>
+
+    <!-- Main title: two-word stacked serif-style (simulated with bold italic) -->
+    <text id="hdr_title_1"
+          x="80" y="150"
+          inkscape:label="★ EDIT: Title line 1"
+          style="font-family:'Georgia','Times New Roman',serif;font-size:88px;font-weight:400;font-style:italic;fill:#0D0F14;letter-spacing:-2px;line-height:1">Visual</text>
+    <text id="hdr_title_2"
+          x="80" y="238"
+          inkscape:label="★ EDIT: Title line 2 (accent color)"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:88px;font-weight:900;fill:#0D0F14;letter-spacing:-2.5px;line-height:1">IDENTITY SYSTEM</text>
+
+    <!-- Version badge -->
+    <rect id="ver_bg" x="1820" y="36" width="240" height="36"
+          style="fill:rgba(240,165,0,0.1);stroke:#F0A500;stroke-width:1.5;stroke-opacity:0.35"/>
+    <text id="ver_text"
+          x="1940" y="59" text-anchor="middle"
+          inkscape:label="★ EDIT: Version + semester"
+          style="font-family:'Courier New',monospace;font-size:13px;fill:#F0A500;letter-spacing:3px">v1.0 — SPRING 2025</text>
+
+    <!-- URL -->
+    <text id="hdr_url"
+          x="1820" y="108"
+          inkscape:label="★ EDIT: Club URL"
+          style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;fill-opacity:0.38;letter-spacing:2.5px">ksbcsp.club</text>
+
+    <!-- Description text -->
+    <text x="1820" y="148"
+          style="font-family:'Arial',sans-serif;font-size:15px;fill:#3A3D45;letter-spacing:0.3px">
+      <tspan x="1820" dy="0">Complete standards: logo usage, color,</tspan>
+      <tspan x="1820" dy="22">typography, spacing, and applications</tspan>
+      <tspan x="1820" dy="22">for all club visual communications.</tspan>
+    </text>
+
+    <!-- Header mini logo (right panel) -->
+    <!-- Badge hex -->
+    <polygon id="hdr_logo_hex"
+             points="2594,72 2654,106 2654,174 2594,208 2534,174 2534,106"
+             style="fill:#060D1A;stroke:url(#grad_ring);stroke-width:2.5"/>
+    <polygon points="2594,80 2646,111 2646,169 2594,200 2542,169 2542,111"
+             style="fill:none;stroke:#F0A500;stroke-width:0.6;stroke-opacity:0.18"/>
+    <!-- Echo bolt -->
+    <polygon points="2605,82 2582,136 2592,136 2589,190 2607,142 2596,142"
+             style="fill:#192540;fill-opacity:0.65"/>
+    <!-- Main bolt -->
+    <polygon id="hdr_bolt"
+             points="2598,74 2573,134 2585,134 2580,192 2600,140 2589,140"
+             style="fill:url(#grad_bolt);filter:url(#flt_bolt_glow)"/>
+    <polygon points="2598,74 2590,98 2593,98"
+             style="fill:#FFF9E0;fill-opacity:0.5"/>
+    <!-- Top/bottom ticks -->
+    <line x1="2594" y1="65" x2="2594" y2="73" style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:square;stroke-opacity:0.7"/>
+    <line x1="2594" y1="207" x2="2594" y2="215" style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:square;stroke-opacity:0.7"/>
+
+    <!-- Wordmark next to header logo -->
+    <text x="2678" y="160"
+          style="font-family:'Arial Black','Impact',sans-serif;font-size:44px;font-weight:900;fill:#0D0F14;letter-spacing:-1.5px">KSBCSP</text>
+    <!-- A-notch detail -->
+    <line x1="2721" y1="120" x2="2729" y2="133" style="stroke:#F0A500;stroke-width:2.2;stroke-linecap:round;stroke-opacity:0.9"/>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 03 · LOGO SUITE
+       y = 280 → 620   (340 px tall)
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="03 · Logo Suite" inkscape:groupmode="layer" id="lyr_logos">
+
+    <!-- Section label row -->
+    <!-- Number badge -->
+    <rect x="80" y="296" width="44" height="22" style="fill:rgba(0,196,232,0.1);stroke:#00C4E8;stroke-width:1;stroke-opacity:0.28"/>
+    <text x="102" y="312" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:1px">01</text>
+    <!-- Section title -->
+    <text x="140" y="312"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:13px;font-weight:900;fill:#0D0F14;letter-spacing:6px;text-transform:uppercase">LOGO SUITE</text>
+    <!-- Right-aligned descriptor -->
+    <text x="2720" y="312" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:1.5px">Primary · Icon Only · Mono Dark · Mono Light</text>
+
+
+    <!-- ══════════════════════════════
+         A: PRIMARY LOGO (full colour, light bg)
+         x=80..1060  y=356..596
+    ══════════════════════════════ -->
+    <g id="logo_A_primary" inkscape:label="Logo A — Primary Full Colour (Light BG)">
+      <!-- Cell background -->
+      <rect x="80" y="356" width="980" height="240"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <!-- Cell tag -->
+      <text x="92" y="374"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.3;letter-spacing:2px;text-transform:uppercase">A — Primary (Full Colour)</text>
+
+      <!-- Hex badge -->
+      <polygon id="pA_hex"
+               points="248,404 304,436 304,500 248,532 192,500 192,436"
+               style="fill:#060D1A;stroke:url(#grad_ring);stroke-width:2.5"/>
+      <!-- Inner echo ring -->
+      <polygon points="248,411 298,440 298,496 248,525 198,496 198,440"
+               style="fill:none;stroke:#F0A500;stroke-width:0.7;stroke-opacity:0.18"/>
+      <!-- Shadow bolt layer -->
+      <polygon points="258,407 237,461 247,461 244,515 263,467 252,467"
+               style="fill:#192540;fill-opacity:0.65"/>
+      <!-- Main bolt -->
+      <polygon id="pA_bolt"
+               points="251,399 228,459 241,459 236,517 257,465 245,465"
+               style="fill:url(#grad_bolt);filter:url(#flt_bolt_glow)"/>
+      <!-- Highlight facet -->
+      <polygon points="251,399 243,423 246,423" style="fill:#FFF9E0;fill-opacity:0.5"/>
+      <!-- Ticks -->
+      <line x1="248" y1="395" x2="248" y2="405" style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:square;stroke-opacity:0.7"/>
+      <line x1="248" y1="531" x2="248" y2="541" style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:square;stroke-opacity:0.7"/>
+
+      <!-- Wordmark -->
+      <text id="pA_wordmark"
+            x="334" y="484"
+            inkscape:label="★ EDIT: Wordmark"
+            style="font-family:'Arial Black','Impact',sans-serif;font-size:60px;font-weight:900;fill:#0D0F14;letter-spacing:-2px">KSBCSP</text>
+      <!-- A-notch diagonal -->
+      <line x1="405" y1="430" x2="415" y2="446" style="stroke:#F0A500;stroke-width:2.5;stroke-linecap:round;stroke-opacity:0.9"/>
+      <!-- Tagline flanked by rules -->
+      <line x1="334" y1="506" x2="378" y2="506" style="stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.5"/>
+      <line x1="530" y1="506" x2="574" y2="506" style="stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.5"/>
+      <text id="pA_tagline"
+            x="454" y="510" text-anchor="middle"
+            inkscape:label="★ EDIT: Tagline"
+            style="font-family:'Arial',sans-serif;font-size:11px;font-weight:700;fill:#F0A500;letter-spacing:5px">ASSET LAB</text>
+
+      <!-- Usage note -->
+      <text x="92" y="578"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:1.5px">Default. Use on white or light backgrounds for all digital + print.</text>
+    </g>
+
+
+    <!-- ══════════════════════════════
+         B: ICON ONLY
+         x=1080..1580  y=356..596
+    ══════════════════════════════ -->
+    <g id="logo_B_icon" inkscape:label="Logo B — Icon Only">
+      <rect x="1080" y="356" width="480" height="240"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="1092" y="374"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.3;letter-spacing:2px;text-transform:uppercase">B — Icon Only</text>
+
+      <!-- Badge (centred at 1320,470) -->
+      <polygon id="pB_hex"
+               points="1320,404 1372,434 1372,494 1320,524 1268,494 1268,434"
+               style="fill:#060D1A;stroke:url(#grad_ring);stroke-width:2.5"/>
+      <polygon points="1320,411 1366,437 1366,491 1320,517 1274,491 1274,437"
+               style="fill:none;stroke:#F0A500;stroke-width:0.7;stroke-opacity:0.18"/>
+      <polygon points="1328,406 1311,452 1319,452 1316,498 1333,456 1323,456"
+               style="fill:#192540;fill-opacity:0.65"/>
+      <polygon id="pB_bolt"
+               points="1322,398 1304,450 1314,450 1310,500 1329,454 1318,454"
+               style="fill:url(#grad_bolt);filter:url(#flt_bolt_glow)"/>
+      <polygon points="1322,398 1315,418 1318,418" style="fill:#FFF9E0;fill-opacity:0.5"/>
+      <line x1="1320" y1="395" x2="1320" y2="405" style="stroke:#F0A500;stroke-width:2.2;stroke-linecap:square;stroke-opacity:0.7"/>
+      <line x1="1320" y1="523" x2="1320" y2="533" style="stroke:#F0A500;stroke-width:2.2;stroke-linecap:square;stroke-opacity:0.7"/>
+
+      <text x="1320" y="576" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1.5px">Favicons · Avatars · Min 24 px</text>
+    </g>
+
+
+    <!-- ══════════════════════════════
+         C: MONO DARK (white on navy)
+         x=1580..2040  y=356..596
+    ══════════════════════════════ -->
+    <g id="logo_C_mono_dark" inkscape:label="Logo C — Mono Dark (White on Navy)">
+      <rect x="1580" y="356" width="480" height="240"
+            style="fill:#060D1A;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.25"/>
+      <text x="1592" y="374"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#FAFAF7;fill-opacity:0.3;letter-spacing:2px;text-transform:uppercase">C — Mono Dark</text>
+
+      <!-- Badge (white outlines only) -->
+      <polygon id="pC_hex"
+               points="1820,404 1872,434 1872,494 1820,524 1768,494 1768,434"
+               style="fill:#FAFAF7;stroke:#FAFAF7;stroke-width:2.5;fill-opacity:0.9"/>
+      <polygon points="1828,406 1811,452 1819,452 1816,498 1833,456 1823,456"
+               style="fill:#060D1A;fill-opacity:0.85"/>
+      <polygon id="pC_bolt"
+               points="1822,398 1804,450 1814,450 1810,500 1829,454 1818,454"
+               style="fill:#060D1A"/>
+      <polygon points="1822,398 1815,418 1818,418" style="fill:rgba(255,255,255,0.3)"/>
+      <line x1="1820" y1="395" x2="1820" y2="405" style="stroke:#FAFAF7;stroke-width:2.2;stroke-linecap:square;stroke-opacity:0.55"/>
+      <line x1="1820" y1="523" x2="1820" y2="533" style="stroke:#FAFAF7;stroke-width:2.2;stroke-linecap:square;stroke-opacity:0.55"/>
+
+      <text x="1820" y="576" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#FAFAF7;fill-opacity:0.3;letter-spacing:1.5px">Print · Embroidery · Dark BG</text>
+    </g>
+
+
+    <!-- ══════════════════════════════
+         D: MONO LIGHT (black outline on white)
+         x=2060..2720  y=356..596
+    ══════════════════════════════ -->
+    <g id="logo_D_mono_light" inkscape:label="Logo D — Mono Light (Ink on White)">
+      <rect x="2060" y="356" width="660" height="240"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="2072" y="374"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.3;letter-spacing:2px;text-transform:uppercase">D — Mono Light</text>
+
+      <!-- Badge (ink outline only) -->
+      <polygon id="pD_hex"
+               points="2230,404 2282,434 2282,494 2230,524 2178,494 2178,434"
+               style="fill:none;stroke:#0D0F14;stroke-width:2.5;stroke-opacity:0.85"/>
+      <!-- Echo bolt shade -->
+      <polygon points="2238,406 2221,452 2229,452 2226,498 2243,456 2233,456"
+               style="fill:#0D0F14;fill-opacity:0.07"/>
+      <!-- Bolt solid ink -->
+      <polygon id="pD_bolt"
+               points="2232,398 2214,450 2224,450 2220,500 2239,454 2228,454"
+               style="fill:#0D0F14;fill-opacity:0.85"/>
+      <polygon points="2232,398 2225,418 2228,418" style="fill:#FAFAF7;fill-opacity:0.6"/>
+      <line x1="2230" y1="395" x2="2230" y2="405" style="stroke:#0D0F14;stroke-width:2.2;stroke-linecap:square;stroke-opacity:0.55"/>
+      <line x1="2230" y1="523" x2="2230" y2="533" style="stroke:#0D0F14;stroke-width:2.2;stroke-linecap:square;stroke-opacity:0.55"/>
+
+      <!-- Wordmark mono -->
+      <text x="2310" y="484"
+            style="font-family:'Arial Black','Impact',sans-serif;font-size:44px;font-weight:900;fill:#0D0F14;letter-spacing:-1.5px;fill-opacity:0.88">KSBCSP</text>
+      <line x1="2360" y1="444" x2="2368" y2="456" style="stroke:#0D0F14;stroke-width:2;stroke-linecap:round;stroke-opacity:0.55"/>
+
+      <text x="2390" y="544" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1.5px">Stamps · Laser-cut · Greyscale docs</text>
+    </g>
+
+    <!-- Wordmark note (bottom of section) -->
+    <rect x="80" y="600" width="2640" height="1"
+          style="fill:none;stroke:#00C4E8;stroke-width:14;stroke-opacity:0.06"/>
+    <rect x="80" y="597" width="4" height="20" style="fill:#00C4E8;fill-opacity:0.65"/>
+    <text x="100" y="612"
+          style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45;letter-spacing:0.3px">
+      <tspan style="font-weight:700;fill:#0D0F14">Wordmark note:</tspan>
+      <tspan>  The diagonal slash through the A mirrors the bolt angle — a signature detail. Always use the approved SVG master. Never recreate from type alone.</tspan>
+    </text>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 04 · COLOR SYSTEM
+       y = 620 → 890   (270 px tall)
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="04 · Color System" inkscape:groupmode="layer" id="lyr_colors">
+
+    <!-- Section header -->
+    <rect x="80" y="636" width="44" height="22" style="fill:rgba(0,196,232,0.1);stroke:#00C4E8;stroke-width:1;stroke-opacity:0.28"/>
+    <text x="102" y="652" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:1px">02</text>
+    <text x="140" y="652"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:13px;font-weight:900;fill:#0D0F14;letter-spacing:6px;text-transform:uppercase">COLOR SYSTEM</text>
+    <text x="2720" y="652" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:1.5px">5 Brand Colors — Primary · Accent · Neutral</text>
+
+    <!-- ── 5 SWATCHES ── -->
+    <!-- Each swatch: chip (100px) + info panel (80px) = 180px tall; widths vary across 2640px / 5 = 528px each -->
+
+    <!-- Swatch 1: Deep Navy  x=80 -->
+    <g id="sw_navy" inkscape:label="Swatch — Deep Navy">
+      <rect x="80" y="696" width="504" height="100" style="fill:#060D1A;stroke:none"/>
+      <rect x="80" y="796" width="504" height="80" style="fill:#F0EEE8;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <text x="96" y="820" style="font-family:'Arial Black',sans-serif;font-size:14px;font-weight:700;fill:#0D0F14">Deep Navy</text>
+      <text x="96" y="840" style="font-family:'Courier New',monospace;font-size:13px;fill:#00C4E8;letter-spacing:1.5px">#060D1A</text>
+      <text x="96" y="856" style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">RGB 6 · 13 · 26</text>
+      <text x="96" y="870" style="font-family:'Arial',sans-serif;font-size:11px;fill:#3A3D45">Logo badge · Dark-mode BG · Posters</text>
+    </g>
+
+    <!-- Swatch 2: Navy Mid  x=600 -->
+    <g id="sw_navy_mid" inkscape:label="Swatch — Navy Mid">
+      <rect x="600" y="696" width="504" height="100" style="fill:#0C1628;stroke:none"/>
+      <rect x="600" y="796" width="504" height="80" style="fill:#F0EEE8;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <text x="616" y="820" style="font-family:'Arial Black',sans-serif;font-size:14px;font-weight:700;fill:#0D0F14">Navy Mid</text>
+      <text x="616" y="840" style="font-family:'Courier New',monospace;font-size:13px;fill:#00C4E8;letter-spacing:1.5px">#0C1628</text>
+      <text x="616" y="856" style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">RGB 12 · 22 · 40</text>
+      <text x="616" y="870" style="font-family:'Arial',sans-serif;font-size:11px;fill:#3A3D45">Elevated panels · Cards · UI surfaces</text>
+    </g>
+
+    <!-- Swatch 3: Electric Cyan  x=1120 -->
+    <g id="sw_cyan" inkscape:label="Swatch — Electric Cyan (Primary Accent)">
+      <rect x="1120" y="696" width="504" height="100" style="fill:#00C4E8;stroke:none"/>
+      <rect x="1120" y="796" width="504" height="80" style="fill:#F0EEE8;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <text x="1136" y="820" style="font-family:'Arial Black',sans-serif;font-size:14px;font-weight:700;fill:#0D0F14">Electric Cyan</text>
+      <text x="1136" y="840" style="font-family:'Courier New',monospace;font-size:13px;fill:#00C4E8;letter-spacing:1.5px">#00C4E8</text>
+      <text x="1136" y="856" style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">RGB 0 · 196 · 232</text>
+      <text x="1136" y="870" style="font-family:'Arial',sans-serif;font-size:11px;fill:#3A3D45">Primary accent · Tech · CTAs · Links</text>
+    </g>
+
+    <!-- Swatch 4: Amber Gold  x=1640 -->
+    <g id="sw_amber" inkscape:label="Swatch — Amber Gold (Secondary Accent)">
+      <rect x="1640" y="696" width="504" height="100" style="fill:#F0A500;stroke:none"/>
+      <rect x="1640" y="796" width="504" height="80" style="fill:#F0EEE8;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <text x="1656" y="820" style="font-family:'Arial Black',sans-serif;font-size:14px;font-weight:700;fill:#0D0F14">Amber Gold</text>
+      <text x="1656" y="840" style="font-family:'Courier New',monospace;font-size:13px;fill:#00C4E8;letter-spacing:1.5px">#F0A500</text>
+      <text x="1656" y="856" style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">RGB 240 · 165 · 0</text>
+      <text x="1656" y="870" style="font-family:'Arial',sans-serif;font-size:11px;fill:#3A3D45">Bolt · Tagline · Design accent · Badges</text>
+    </g>
+
+    <!-- Swatch 5: Warm Paper  x=2160 -->
+    <g id="sw_paper" inkscape:label="Swatch — Warm Paper (Light BG)">
+      <rect x="2160" y="696" width="560" height="100" style="fill:#FAFAF7;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <rect x="2160" y="796" width="560" height="80" style="fill:#F0EEE8;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <text x="2176" y="820" style="font-family:'Arial Black',sans-serif;font-size:14px;font-weight:700;fill:#0D0F14">Warm Paper</text>
+      <text x="2176" y="840" style="font-family:'Courier New',monospace;font-size:13px;fill:#00C4E8;letter-spacing:1.5px">#FAFAF7</text>
+      <text x="2176" y="856" style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">RGB 250 · 250 · 247</text>
+      <text x="2176" y="870" style="font-family:'Arial',sans-serif;font-size:11px;fill:#3A3D45">Light-mode BG · Brand docs · Light UI</text>
+    </g>
+
+    <!-- ── Opacity tint strips ── -->
+    <!-- Cyan strip label -->
+    <text x="80" y="900" style="display:none"/>
+    <!-- (strips hidden - section height tight. Labels live in type section instead) -->
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 05 · TYPOGRAPHY
+       y = 890 → 1220   (330 px tall)
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="05 · Typography" inkscape:groupmode="layer" id="lyr_type">
+
+    <!-- Section header -->
+    <rect x="80" y="906" width="44" height="22" style="fill:rgba(0,196,232,0.1);stroke:#00C4E8;stroke-width:1;stroke-opacity:0.28"/>
+    <text x="102" y="922" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:1px">03</text>
+    <text x="140" y="922"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:13px;font-weight:900;fill:#0D0F14;letter-spacing:6px;text-transform:uppercase">TYPOGRAPHY</text>
+    <text x="2720" y="922" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:1.5px">Display · Body · Mono — 3-font system</text>
+
+    <!-- ══ 3 type cards: w=860 each, gap=10  ══ -->
+    <!-- 3×860 + 2×10 = 2600; start at 80 → 80+860=940+10=950+860=1810+10=1820+860=2680 fits in 2720 ✓ -->
+
+    <!-- CARD 1: Display typeface -->
+    <g id="type_card_display" inkscape:label="Type Card 1 — Display">
+      <rect x="80" y="966" width="860" height="232"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <!-- Role label -->
+      <text x="96" y="988"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.65;letter-spacing:3px;text-transform:uppercase">Display / Hero</text>
+      <!-- Giant specimen (simulated with large italic serif) -->
+      <text x="96" y="1120"
+            style="font-family:'Georgia','Times New Roman',serif;font-size:116px;font-weight:400;font-style:italic;fill:#0D0F14;letter-spacing:-3px;line-height:1">Aa</text>
+      <!-- Face name -->
+      <text x="96" y="1150"
+            style="font-family:'Arial Black',sans-serif;font-size:15px;font-weight:700;fill:#0D0F14">Georgia / Instrument Serif</text>
+      <text x="96" y="1168"
+            style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.38;letter-spacing:1.2px">400 Regular · 400 Italic</text>
+      <!-- Divider -->
+      <line x1="96" y1="1178" x2="924" y2="1178" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <!-- Usage copy -->
+      <text x="96" y="1195"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45;line-height:1.6;letter-spacing:0.3px">
+        <tspan x="96" y="1195">Large headers, brand doc titles, editorial pull</tspan>
+        <tspan x="96" dy="17">quotes. Adds warmth. Track −1 to −2 px at size.</tspan>
+      </text>
+      <text x="96" y="1184" style="display:none"/>
+      <!-- Pairing note -->
+      <text x="96" y="1186"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#F0A500;fill-opacity:0.7;letter-spacing:1.5px;display:none">→ Pair with Plus Jakarta Sans</text>
+    </g>
+
+    <!-- CARD 2: Body typeface -->
+    <g id="type_card_body" inkscape:label="Type Card 2 — Body / UI">
+      <rect x="960" y="966" width="860" height="232"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="976" y="988"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.65;letter-spacing:3px;text-transform:uppercase">Body / UI</text>
+      <!-- Specimen (bold sans) -->
+      <text x="976" y="1110"
+            style="font-family:'Arial Black','Arial',sans-serif;font-size:106px;font-weight:900;fill:#0D0F14;fill-opacity:0.8;letter-spacing:-3px">Aa</text>
+      <text x="976" y="1150"
+            style="font-family:'Arial Black',sans-serif;font-size:15px;font-weight:700;fill:#0D0F14">Plus Jakarta Sans</text>
+      <text x="976" y="1168"
+            style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.38;letter-spacing:1.2px">400 · 500 · 600 · 700 · 800 ExtraBold</text>
+      <line x1="976" y1="1178" x2="1804" y2="1178" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="976" y="1195"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45;letter-spacing:0.3px">
+        <tspan x="976" y="1195">All UI, body copy, wordmark, poster headlines.</tspan>
+        <tspan x="976" dy="17">800 for hero names. Line-height 1.55–1.70.</tspan>
+      </text>
+    </g>
+
+    <!-- CARD 3: Mono typeface -->
+    <g id="type_card_mono" inkscape:label="Type Card 3 — Mono / Labels">
+      <rect x="1840" y="966" width="880" height="232"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="1856" y="988"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.65;letter-spacing:3px;text-transform:uppercase">Mono / Labels / Code</text>
+      <!-- Specimen (Courier-style) -->
+      <text x="1856" y="1080"
+            style="font-family:'Courier New',monospace;font-size:78px;fill:#00C4E8;letter-spacing:-1px">AB</text>
+      <text x="1856" y="1148"
+            style="font-family:'Courier New',monospace;font-size:78px;fill:#00C4E8;letter-spacing:-1px">01_</text>
+      <text x="1856" y="1158" style="display:none"/>
+
+      <text x="2320" y="1050"
+            style="font-family:'Arial Black',sans-serif;font-size:15px;font-weight:700;fill:#0D0F14">DM Mono</text>
+      <text x="2320" y="1068"
+            style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.38;letter-spacing:1.2px">400 Regular · 500 Medium</text>
+      <line x1="1856" y1="1178" x2="2704" y2="1178" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="1856" y="1195"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45;letter-spacing:0.3px">
+        <tspan x="1856" y="1195">Hex codes, section numbers, skill tags,</tspan>
+        <tspan x="1856" dy="17">UI labels. Always uppercase + track 2–5 px.</tspan>
+      </text>
+
+    </g>
+
+    <!-- ── TYPE SCALE BAR (bottom of section) ── -->
+    <!-- 5 scale steps across 2640 px: each 528 px wide -->
+    <g id="type_scale_bar" inkscape:label="Type scale reference bar">
+      <!-- HERO step -->
+      <rect x="80" y="1208" width="527" height="1" style="fill:#0D0F14;fill-opacity:0.08"/>
+      <text x="330" y="1198" text-anchor="middle"
+            style="font-family:'Arial Black',sans-serif;font-size:44px;font-weight:900;fill:#0D0F14;letter-spacing:-1px">T</text>
+      <text x="330" y="1215" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:2px">HERO · 96–116 px</text>
+      <!-- Separator -->
+      <line x1="607" y1="1162" x2="607" y2="1220" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <!-- TITLE step -->
+      <text x="870" y="1204" text-anchor="middle"
+            style="font-family:'Arial Black',sans-serif;font-size:30px;font-weight:900;fill:#0D0F14;letter-spacing:-0.5px">T</text>
+      <text x="870" y="1215" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:2px">TITLE · 48–72 px</text>
+      <line x1="1134" y1="1162" x2="1134" y2="1220" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <!-- HEADING step -->
+      <text x="1397" y="1207" text-anchor="middle"
+            style="font-family:'Arial Black',sans-serif;font-size:20px;font-weight:700;fill:#0D0F14">T</text>
+      <text x="1397" y="1215" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:2px">HEAD · 22–36 px</text>
+      <line x1="1660" y1="1162" x2="1660" y2="1220" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <!-- BODY step -->
+      <text x="1923" y="1210" text-anchor="middle"
+            style="font-family:'Arial',sans-serif;font-size:14px;fill:#0D0F14;fill-opacity:0.65">T</text>
+      <text x="1923" y="1215" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:2px">BODY · 13–18 px</text>
+      <line x1="2187" y1="1162" x2="2187" y2="1220" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.08"/>
+      <!-- LABEL step -->
+      <text x="2453" y="1212" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:2px">T</text>
+      <text x="2453" y="1215" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:2px">LABEL · 8–12 px</text>
+    </g>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 06 · CLEAR SPACE  (left half)
+       y = 1220 → 1540   x = 0 → 1380
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="06 · Clear Space &amp; Sizing" inkscape:groupmode="layer" id="lyr_clearspace">
+
+    <!-- Section header (left) -->
+    <rect x="80" y="1236" width="44" height="22" style="fill:rgba(0,196,232,0.1);stroke:#00C4E8;stroke-width:1;stroke-opacity:0.28"/>
+    <text x="102" y="1252" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:1px">04</text>
+    <text x="140" y="1252"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:13px;font-weight:900;fill:#0D0F14;letter-spacing:6px;text-transform:uppercase">CLEAR SPACE &amp; SIZING</text>
+
+    <!-- ── LEFT PANEL: exclusion-zone diagram ── -->
+    <g id="cs_diagram" inkscape:label="Clear space exclusion zone diagram">
+      <rect x="80" y="1296" width="640" height="224"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="96" y="1316"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.3;letter-spacing:2.5px;text-transform:uppercase">Clear Space Rule — unit x = badge height</text>
+
+      <!-- Outer exclusion zone (dashed amber) -->
+      <rect x="162" y="1330" width="476" height="172"
+            style="fill:none;stroke:#F0A500;stroke-width:1.2;stroke-dasharray:6,5;stroke-opacity:0.55"/>
+
+      <!-- Logo boundary box (solid cyan) -->
+      <rect x="232" y="1358" width="336" height="116"
+            style="fill:rgba(0,196,232,0.04);stroke:#00C4E8;stroke-width:0.8;stroke-opacity:0.45"/>
+
+      <!-- Mini logo inside box -->
+      <g transform="translate(248,1366)">
+        <polygon points="44,0 70,15 70,45 44,60 18,45 18,15" fill="#060D1A" stroke="#F0A500" stroke-width="1.5"/>
+        <polygon points="44,6 63,18 63,42 44,54 25,42 25,18" fill="#F0A500" opacity="0.65"/>
+        <polygon points="44,6 38,18 41,18 39,54 48,18 45,18" fill="#060D1A" opacity="0.55"/>
+        <text x="84" y="36" font-family="'Arial Black',sans-serif" font-size="22" font-weight="900" fill="#0D0F14" letter-spacing="-0.5">KSBCSP</text>
+        <line x1="83" y1="47" x2="104" y2="47" stroke="#F0A500" stroke-width="0.8" opacity="0.5"/>
+        <line x1="166" y1="47" x2="187" y2="47" stroke="#F0A500" stroke-width="0.8" opacity="0.5"/>
+        <text x="136" y="51" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#F0A500" letter-spacing="2.5" opacity="0.85">ASSET LAB</text>
+      </g>
+
+      <!-- Amber annotation arrows -->
+      <!-- Top gap arrow -->
+      <line x1="400" y1="1330" x2="400" y2="1358" style="stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.75"/>
+      <polygon points="400,1330 396,1340 404,1340" style="fill:#F0A500;fill-opacity:0.75"/>
+      <polygon points="400,1358 396,1348 404,1348" style="fill:#F0A500;fill-opacity:0.75"/>
+      <text x="410" y="1347" style="font-family:'Arial',sans-serif;font-size:14px;font-style:italic;font-weight:700;fill:#F0A500;fill-opacity:0.8">x</text>
+
+      <!-- Bottom gap arrow -->
+      <line x1="400" y1="1474" x2="400" y2="1502" style="stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.75"/>
+      <polygon points="400,1474 396,1484 404,1484" style="fill:#F0A500;fill-opacity:0.75"/>
+      <polygon points="400,1502 396,1492 404,1492" style="fill:#F0A500;fill-opacity:0.75"/>
+      <text x="410" y="1491" style="font-family:'Arial',sans-serif;font-size:14px;font-style:italic;font-weight:700;fill:#F0A500;fill-opacity:0.8">x</text>
+
+      <!-- Left gap arrow -->
+      <line x1="162" y1="1416" x2="232" y2="1416" style="stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.75"/>
+      <polygon points="162,1416 172,1412 172,1420" style="fill:#F0A500;fill-opacity:0.75"/>
+      <polygon points="232,1416 222,1412 222,1420" style="fill:#F0A500;fill-opacity:0.75"/>
+      <text x="184" y="1408" style="font-family:'Arial',sans-serif;font-size:14px;font-style:italic;font-weight:700;fill:#F0A500;fill-opacity:0.8">x</text>
+
+      <!-- Right gap arrow -->
+      <line x1="568" y1="1416" x2="638" y2="1416" style="stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.75"/>
+      <polygon points="568,1416 578,1412 578,1420" style="fill:#F0A500;fill-opacity:0.75"/>
+      <polygon points="638,1416 628,1412 628,1420" style="fill:#F0A500;fill-opacity:0.75"/>
+      <text x="592" y="1408" style="font-family:'Arial',sans-serif;font-size:14px;font-style:italic;font-weight:700;fill:#F0A500;fill-opacity:0.8">x</text>
+
+      <text x="400" y="1528" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#00C4E8;fill-opacity:0.55;letter-spacing:2.5px">MIN. CLEAR SPACE = 1× ON ALL SIDES</text>
+    </g>
+
+    <!-- ── RIGHT PANEL: min size table ── -->
+    <g id="cs_size_table" inkscape:label="Minimum size table by context">
+      <rect x="740" y="1296" width="620" height="224"
+            style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:1;stroke-opacity:0.1"/>
+      <text x="756" y="1316"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.3;letter-spacing:2.5px;text-transform:uppercase">Minimum Sizes by Context</text>
+
+      <!-- Table rows -->
+      <line x1="756" y1="1330" x2="1344" y2="1330" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <text x="756" y="1351" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Instagram Post / Story</text>
+      <text x="1344" y="1351" text-anchor="end" style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;letter-spacing:1px">120 px</text>
+      <line x1="756" y1="1360" x2="1344" y2="1360" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <text x="756" y="1381" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Presentation slide header</text>
+      <text x="1344" y="1381" text-anchor="end" style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;letter-spacing:1px">180 px</text>
+      <line x1="756" y1="1390" x2="1344" y2="1390" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <text x="756" y="1411" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Discord / Slack avatar</text>
+      <text x="1344" y="1411" text-anchor="end" style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;letter-spacing:1px">Icon · 48 px</text>
+      <line x1="756" y1="1420" x2="1344" y2="1420" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <text x="756" y="1441" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Browser favicon</text>
+      <text x="1344" y="1441" text-anchor="end" style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;letter-spacing:1px">Icon · 32 px</text>
+      <line x1="756" y1="1450" x2="1344" y2="1450" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <text x="756" y="1471" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Print flyers / posters</text>
+      <text x="1344" y="1471" text-anchor="end" style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;letter-spacing:1px">35 mm / 1.4 in</text>
+      <line x1="756" y1="1480" x2="1344" y2="1480" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <text x="756" y="1501" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Embroidery / apparel</text>
+      <text x="1344" y="1501" text-anchor="end" style="font-family:'Courier New',monospace;font-size:13px;fill:#0D0F14;letter-spacing:1px">Icon · 50 mm</text>
+      <line x1="756" y1="1510" x2="1344" y2="1510" style="stroke:#0D0F14;stroke-width:1;stroke-opacity:0.07"/>
+
+      <!-- Warning row -->
+      <text x="756" y="1526" style="font-family:'Arial',sans-serif;font-size:13px;fill:#3A3D45">Absolute minimum</text>
+      <text x="1344" y="1526" text-anchor="end" style="font-family:'Courier New',monospace;font-size:12px;fill:#F0A500;letter-spacing:1px">≥ 24 px icon only</text>
+
+    </g>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 07 · DO / DON'T  (right half of same band)
+       y = 1220 → 1540   x = 1380 → 2800
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="07 · Logo Usage Rules (Do / Don't)" inkscape:groupmode="layer" id="lyr_dodont">
+
+    <!-- Section header (right) -->
+    <rect x="1400" y="1236" width="44" height="22" style="fill:rgba(0,196,232,0.1);stroke:#00C4E8;stroke-width:1;stroke-opacity:0.28"/>
+    <text x="1422" y="1252" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:1px">05</text>
+    <text x="1460" y="1252"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:13px;font-weight:900;fill:#0D0F14;letter-spacing:6px;text-transform:uppercase">USAGE RULES</text>
+    <text x="2720" y="1252" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:1.5px">6 rules — dos &amp; don'ts</text>
+
+    <!-- 6 cards: 3 DO (top row) + 3 DON'T (bottom row) -->
+    <!-- Available width: 1400..2720 = 1320 px. 3 cards per row, gap=10 → (1320-2×10)/3 = 433 px each -->
+    <!-- Rows: top y=1296..1410, bottom y=1420..1530 -->
+
+    <!-- ── DO row ── -->
+
+    <!-- DO 1: Full colour on light bg -->
+    <g id="dd_do1" inkscape:label="Do — Full colour on approved BG">
+      <rect x="1400" y="1296" width="433" height="112"
+            style="fill:rgba(0,196,232,0.04);stroke:rgba(0,196,232,0.22);stroke-width:1.2"/>
+      <!-- Do badge -->
+      <circle cx="1418" cy="1316" r="5" style="fill:#00C4E8"/>
+      <text x="1430" y="1320"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;letter-spacing:2px;text-transform:uppercase">Do</text>
+      <!-- Mini lockup on white -->
+      <rect x="1430" y="1326" width="180" height="60" style="fill:#FFFFFF;stroke:#0D0F14;stroke-width:0.5;stroke-opacity:0.08"/>
+      <g transform="translate(1440,1335)">
+        <polygon points="22,0 35,8 35,24 22,32 9,24 9,8" fill="#060D1A" stroke="#F0A500" stroke-width="1.2"/>
+        <polygon points="22,5 30,11 30,21 22,27 14,21 14,11" fill="#F0A500" opacity="0.7"/>
+        <polygon points="22,5 18,12 20,12 18,27 25,12 22,12" fill="#060D1A" opacity="0.55"/>
+        <text x="42" y="18" font-family="'Arial Black',sans-serif" font-size="12" fill="#0D0F14" letter-spacing="-.3">KSBCSP</text>
+      </g>
+      <text x="1400" y="1400"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45;line-height:1.55">Use full colour logo on white/light backgrounds.</text>
+    </g>
+
+    <!-- DO 2: Icon only at small sizes -->
+    <g id="dd_do2" inkscape:label="Do — Icon only at small sizes">
+      <rect x="1843" y="1296" width="433" height="112"
+            style="fill:rgba(0,196,232,0.04);stroke:rgba(0,196,232,0.22);stroke-width:1.2"/>
+      <circle cx="1861" cy="1316" r="5" style="fill:#00C4E8"/>
+      <text x="1873" y="1320"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;letter-spacing:2px;text-transform:uppercase">Do</text>
+      <g transform="translate(1875,1328)">
+        <polygon points="28,0 45,10 45,30 28,40 11,30 11,10" fill="#060D1A" stroke="#F0A500" stroke-width="1.4"/>
+        <polygon points="28,6 39,13 39,27 28,34 17,27 17,13" fill="#F0A500" opacity="0.7"/>
+        <polygon points="28,6 24,14 26,14 24,34 31,14 28,14" fill="#060D1A" opacity="0.55"/>
+      </g>
+      <text x="1930" y="1342"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.55;letter-spacing:1.5px">Icon only</text>
+      <text x="1930" y="1358"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.55;letter-spacing:1.5px">at small sizes</text>
+      <text x="1843" y="1400"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45">Use icon-only version below 120 px.</text>
+    </g>
+
+    <!-- DO 3: Mono on dark bg -->
+    <g id="dd_do3" inkscape:label="Do — Mono white on dark BG">
+      <rect x="2287" y="1296" width="433" height="112"
+            style="fill:rgba(0,196,232,0.04);stroke:rgba(0,196,232,0.22);stroke-width:1.2"/>
+      <circle cx="2305" cy="1316" r="5" style="fill:#00C4E8"/>
+      <text x="2317" y="1320"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;letter-spacing:2px;text-transform:uppercase">Do</text>
+      <!-- Mono on dark preview -->
+      <rect x="2317" y="1328" width="160" height="52" style="fill:#060D1A"/>
+      <g transform="translate(2328,1337)">
+        <polygon points="20,0 32,7 32,21 20,28 8,21 8,7" fill="#FAFAF7" opacity="0.88" stroke="#FAFAF7" stroke-width="1.2"/>
+        <polygon points="20,5 27,10 27,18 20,23 13,18 13,10" fill="#060D1A"/>
+        <text x="38" y="15" font-family="'Arial Black',sans-serif" font-size="11" fill="#FAFAF7" opacity="0.88" letter-spacing="-.3">KSBCSP</text>
+      </g>
+      <text x="2287" y="1400"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45">Use mono-white on dark backgrounds.</text>
+    </g>
+
+    <!-- ── DON'T row ── -->
+
+    <!-- DON'T 1: Stretch/distort -->
+    <g id="dd_dont1" inkscape:label="Don't — Stretch or distort">
+      <rect x="1400" y="1418" width="433" height="112"
+            style="fill:rgba(220,40,60,0.03);stroke:rgba(220,40,60,0.2);stroke-width:1.2"/>
+      <circle cx="1418" cy="1438" r="5" style="fill:#DC283C"/>
+      <text x="1430" y="1442"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#DC283C;letter-spacing:2px;text-transform:uppercase">Don't</text>
+      <!-- Stretched hex visual -->
+      <g transform="translate(1450,1448)">
+        <polygon points="50,0 78,16 78,28 50,44 22,28 22,16" fill="#060D1A" stroke="#F0A500" stroke-width="1.2" opacity="0.7"/>
+        <polygon points="50,6 62,13 62,21 50,28 38,21 38,13" fill="#F0A500" opacity="0.5"/>
+        <!-- Red X -->
+        <line x1="0" y1="0" x2="120" y2="44" stroke="#DC283C" stroke-width="2" opacity="0.8"/>
+        <line x1="120" y1="0" x2="0" y2="44" stroke="#DC283C" stroke-width="2" opacity="0.8"/>
+      </g>
+      <text x="1400" y="1522"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45">Never stretch, skew, or distort the logo.</text>
+    </g>
+
+    <!-- DON'T 2: Wrong colours -->
+    <g id="dd_dont2" inkscape:label="Don't — Recolor outside palette">
+      <rect x="1843" y="1418" width="433" height="112"
+            style="fill:rgba(220,40,60,0.03);stroke:rgba(220,40,60,0.2);stroke-width:1.2"/>
+      <circle cx="1861" cy="1438" r="5" style="fill:#DC283C"/>
+      <text x="1873" y="1442"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#DC283C;letter-spacing:2px;text-transform:uppercase">Don't</text>
+      <g transform="translate(1875,1448)">
+        <polygon points="28,0 45,10 45,30 28,40 11,30 11,10" fill="#6A0DAD" stroke="#E040FB" stroke-width="1.5"/>
+        <polygon points="28,6 39,13 39,27 28,34 17,27 17,13" fill="#E040FB"/>
+        <text x="54" y="24" font-family="'Arial Black',sans-serif" font-size="13" fill="#E040FB" letter-spacing="-.3">KSBCSP</text>
+        <line x1="0" y1="0" x2="120" y2="42" stroke="#DC283C" stroke-width="2" opacity="0.8"/>
+        <line x1="120" y1="0" x2="0" y2="42" stroke="#DC283C" stroke-width="2" opacity="0.8"/>
+      </g>
+      <text x="1843" y="1522"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45">Never recolour outside the 5-colour palette.</text>
+    </g>
+
+    <!-- DON'T 3: Busy background -->
+    <g id="dd_dont3" inkscape:label="Don't — Place on busy/patterned BG">
+      <rect x="2287" y="1418" width="433" height="112"
+            style="fill:rgba(220,40,60,0.03);stroke:rgba(220,40,60,0.2);stroke-width:1.2"/>
+      <circle cx="2305" cy="1438" r="5" style="fill:#DC283C"/>
+      <text x="2317" y="1442"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#DC283C;letter-spacing:2px;text-transform:uppercase">Don't</text>
+      <!-- Busy bg preview -->
+      <rect x="2317" y="1452" width="160" height="52" style="fill:url(#pat_busy)"/>
+      <g transform="translate(2328,1460)">
+        <polygon points="20,0 32,7 32,21 20,28 8,21 8,7" fill="rgba(6,13,26,0.5)" stroke="#F0A500" stroke-width="1.2" opacity="0.55"/>
+        <text x="38" y="17" font-family="'Arial Black',sans-serif" font-size="11" fill="rgba(250,250,247,0.45)" letter-spacing="-.3">KSBCSP</text>
+        <!-- Red X -->
+        <line x1="-11" y1="-8" x2="149" y2="44" stroke="#DC283C" stroke-width="2" opacity="0.8"/>
+        <line x1="149" y1="-8" x2="-11" y2="44" stroke="#DC283C" stroke-width="2" opacity="0.8"/>
+      </g>
+      <text x="2287" y="1522"
+            style="font-family:'Arial',sans-serif;font-size:12px;fill:#3A3D45">Never place logo on busy/patterned BGs.</text>
+    </g>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 08 · APPLICATION EXAMPLES
+       y = 1540 → 1900   (360 px tall)
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="08 · Application Examples" inkscape:groupmode="layer" id="lyr_apps">
+
+    <!-- Section header -->
+    <rect x="80" y="1556" width="44" height="22" style="fill:rgba(0,196,232,0.1);stroke:#00C4E8;stroke-width:1;stroke-opacity:0.28"/>
+    <text x="102" y="1572" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#00C4E8;letter-spacing:1px">06</text>
+    <text x="140" y="1572"
+          style="font-family:'Arial Black','Arial',sans-serif;font-size:13px;font-weight:900;fill:#0D0F14;letter-spacing:6px;text-transform:uppercase">APPLICATION EXAMPLES</text>
+    <text x="2720" y="1572" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:11px;fill:#0D0F14;fill-opacity:0.35;letter-spacing:1.5px">Social Header · Event Flyer · Die-Cut Sticker</text>
+
+    <!-- Available width: 2640 px, 3 apps, gap=14 → each = (2640-28)/3 = 870 px -->
+    <!-- x positions: 80, 80+870+14=964, 964+870+14=1848 -->
+
+    <!-- ════════════════════════════════
+         APP A: Social Post Header (16:5 ratio)
+         x=80..950  y=1616..1880
+    ════════════════════════════════ -->
+    <g id="app_social" inkscape:label="App A — Social Post Header 1080×360">
+      <!-- Label -->
+      <text x="80" y="1612"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:2.5px;text-transform:uppercase">A · Social Post Header — 1080×360</text>
+
+      <!-- Mockup frame (870 × 272 px = ratio 3.2:1, close to 3:1 social banner) -->
+      <rect x="80" y="1622" width="870" height="240"
+            style="fill:#060D1A;stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.15"/>
+
+      <!-- Dot texture -->
+      <rect x="80" y="1622" width="870" height="240"
+            style="fill:url(#pat_paper_dots);stroke:none;fill-opacity:0.3"/>
+
+      <!-- Left cyan accent bar -->
+      <rect x="80" y="1622" width="7" height="240" style="fill:#00C4E8;fill-opacity:0.8"/>
+
+      <!-- Logo group (left) -->
+      <!-- Mini badge -->
+      <polygon points="162,1680 194,1698 194,1734 162,1752 130,1734 130,1698"
+               style="fill:#060D1A;stroke:#F0A500;stroke-width:1.5"/>
+      <polygon points="162,1686 186,1699 186,1731 162,1744 138,1731 138,1699"
+               style="fill:#F0A500;fill-opacity:0.65"/>
+      <polygon points="162,1686 157,1698 159,1698 157,1744 165,1698 162,1698"
+               style="fill:#060D1A;fill-opacity:0.55"/>
+      <!-- Wordmark on dark -->
+      <text x="210" y="1725"
+            style="font-family:'Arial Black',sans-serif;font-size:28px;font-weight:900;fill:#FAFAF7;letter-spacing:-0.5px">KSBCSP</text>
+      <text x="210" y="1745"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#F0A500;letter-spacing:3px;fill-opacity:0.88">ASSET LAB</text>
+
+      <!-- Vertical divider -->
+      <line x1="420" y1="1650" x2="420" y2="1840" style="stroke:#FAFAF7;stroke-width:0.8;stroke-opacity:0.14"/>
+
+      <!-- Event copy (right of divider) -->
+      <text x="442" y="1682"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.7;letter-spacing:3.5px">UPCOMING EVENT</text>
+      <text x="442" y="1720"
+            style="font-family:'Arial Black',sans-serif;font-size:26px;font-weight:900;fill:#FAFAF7;letter-spacing:-0.5px">Tech × Design Night</text>
+      <text x="442" y="1746"
+            style="font-family:'Courier New',monospace;font-size:11px;fill:#FAFAF7;fill-opacity:0.42;letter-spacing:1.5px">Fri · Apr 11 · 6 PM · Building K</text>
+
+      <!-- Footer strip -->
+      <rect x="80" y="1832" width="870" height="30" style="fill:rgba(0,0,0,0.32)"/>
+      <line x1="80" y1="1832" x2="950" y2="1832" style="stroke:#00C4E8;stroke-width:0.6;stroke-opacity:0.22"/>
+      <text x="96" y="1851"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.4;letter-spacing:2px">@ksbcsp</text>
+      <text x="934" y="1851" text-anchor="end"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.4;letter-spacing:2px">ksbcsp.club</text>
+
+      <!-- Description note -->
+      <text x="80" y="1878"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">Left cyan bar · Logo + event copy · Consistent branded footer strip.</text>
+    </g>
+
+
+    <!-- ════════════════════════════════
+         APP B: Event Flyer (A5 portrait)
+         x=964..1834  y=1616..1880
+    ════════════════════════════════ -->
+    <g id="app_flyer" inkscape:label="App B — Event Flyer A5 Portrait">
+      <text x="964" y="1612"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:2.5px;text-transform:uppercase">B · Event Flyer — A5 Portrait</text>
+
+      <!-- Mockup frame (600 wide × 250 tall, centred in 870-wide slot) -->
+      <rect x="1019" y="1622" width="760" height="240"
+            style="fill:#060D1A;stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.15"/>
+      <rect x="1019" y="1622" width="760" height="240"
+            style="fill:url(#pat_paper_dots);fill-opacity:0.25;stroke:none"/>
+
+      <!-- Header bar -->
+      <rect x="1019" y="1622" width="760" height="22" style="fill:rgba(0,196,232,0.04)"/>
+      <line x1="1019" y1="1644" x2="1779" y2="1644" style="stroke:#00C4E8;stroke-width:0.6;stroke-opacity:0.2"/>
+      <text x="1033" y="1638"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#00C4E8;fill-opacity:0.6;letter-spacing:3px">KSBCSP</text>
+      <text x="1765" y="1638" text-anchor="end"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#F0A500;fill-opacity:0.6;letter-spacing:2px">DESIGN TEAM</text>
+
+      <!-- Hero type -->
+      <text x="1040" y="1706"
+            style="font-family:'Arial Black',sans-serif;font-size:54px;font-weight:900;fill:#FAFAF7;letter-spacing:-2px">TECH</text>
+      <text x="1040" y="1758"
+            style="font-family:'Arial Black',sans-serif;font-size:54px;font-weight:900;fill:#F0A500;letter-spacing:-2px">DESIGN</text>
+      <text x="1178" y="1720"
+            style="font-family:'Arial Black',sans-serif;font-size:34px;fill:#00C4E8;letter-spacing:-0.5px">×</text>
+
+      <text x="1040" y="1778"
+            style="font-family:'Arial Black',sans-serif;font-size:11px;font-weight:700;fill:rgba(250,250,247,0.35);letter-spacing:7px">CREATIVE NIGHT</text>
+
+      <!-- Diamond divider -->
+      <line x1="1040" y1="1792" x2="1260" y2="1792" style="stroke:#00C4E8;stroke-width:0.8;stroke-opacity:0.3"/>
+      <rect x="1262" y="1788" width="7" height="7" style="fill:#F0A500;fill-opacity:0.7" transform="rotate(45,1265,1791)"/>
+      <line x1="1272" y1="1792" x2="1492" y2="1792" style="stroke:#F0A500;stroke-width:0.8;stroke-opacity:0.3"/>
+
+      <!-- Event details -->
+      <text x="1040" y="1816"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:rgba(0,196,232,0.55);letter-spacing:3px">DATE · TIME</text>
+      <text x="1040" y="1835"
+            style="font-family:'Arial Black',sans-serif;font-size:14px;fill:#FAFAF7;letter-spacing:-0.3px">Fri Apr 11 · 6 PM · Bldg K</text>
+
+      <!-- CTA button -->
+      <rect x="1040" y="1844" width="170" height="26" style="fill:#00C4E8"/>
+      <text x="1125" y="1861" text-anchor="middle"
+            style="font-family:'Arial Black',sans-serif;font-size:11px;font-weight:900;fill:#060D1A;letter-spacing:1.2px">REGISTER FREE</text>
+
+      <!-- Footer -->
+      <rect x="1019" y="1840" width="760" height="22" style="fill:rgba(0,0,0,0.32)"/>
+      <text x="1033" y="1855"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:rgba(250,250,247,0.28);letter-spacing:1.5px">@ksbcsp · ksbcsp.club</text>
+
+      <text x="964" y="1878"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">Bold title hierarchy · Cyan CTA · Amber accent · Branded footer.</text>
+    </g>
+
+
+    <!-- ════════════════════════════════
+         APP C: Die-Cut Sticker (hex)
+         x=1848..2720  y=1616..1880
+    ════════════════════════════════ -->
+    <g id="app_sticker" inkscape:label="App C — Hexagonal Die-Cut Sticker 60mm">
+      <text x="1848" y="1612"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:2.5px;text-transform:uppercase">C · Die-Cut Sticker — 60 mm Hex</text>
+
+      <!-- Light-grey "table" context behind sticker -->
+      <rect x="1848" y="1622" width="872" height="240"
+            style="fill:#D5D1C8;stroke:#0D0F14;stroke-width:1.5;stroke-opacity:0.1"/>
+
+      <!-- Sticker white bleed border (outer hex) -->
+      <!-- Centred at (2284, 1742). Outer radius ~115, inner (body) ~105 -->
+      <polygon id="sticker_bleed"
+               points="2284,1627 2384,1685 2384,1799 2284,1857 2184,1799 2184,1685"
+               style="fill:#FFFFFF" filter="url(#flt_card_shadow)"/>
+
+      <!-- Dark sticker body -->
+      <polygon id="sticker_body"
+               points="2284,1638 2374,1690 2374,1794 2284,1846 2194,1794 2194,1690"
+               style="fill:#060D1A"/>
+
+      <!-- Dot grid on sticker -->
+      <rect x="2194" y="1638" width="180" height="208"
+            style="fill:url(#pat_paper_dots);fill-opacity:0.4;stroke:none"
+            clip-path="url(#clip_sticker)"/>
+
+      <!-- Inner ring line -->
+      <polygon points="2284,1646 2366,1694 2366,1790 2284,1838 2202,1790 2202,1694"
+               style="fill:none;stroke:#F0A500;stroke-width:1.2;stroke-opacity:0.22"
+               clip-path="url(#clip_sticker)"/>
+
+      <!-- Sticker logo (large, centred) -->
+      <!-- Badge hex centred at 2284,1730, radius ~50 -->
+      <polygon points="2284,1670 2330,1697 2330,1751 2284,1778 2238,1751 2238,1697"
+               style="fill:#111F35;stroke:url(#grad_ring);stroke-width:2"/>
+      <!-- Echo bolt -->
+      <polygon points="2291,1673 2274,1717 2282,1717 2279,1761 2293,1723 2285,1723"
+               style="fill:#1A2540;fill-opacity:0.65"/>
+      <!-- Main bolt -->
+      <polygon id="sticker_bolt"
+               points="2285,1665 2267,1715 2276,1715 2272,1763 2290,1719 2281,1719"
+               style="fill:url(#grad_bolt);filter:url(#flt_bolt_glow)"/>
+      <polygon points="2285,1665 2278,1683 2281,1683" style="fill:#FFF9E0;fill-opacity:0.48"/>
+      <!-- Ticks -->
+      <line x1="2284" y1="1661" x2="2284" y2="1670" style="stroke:#F0A500;stroke-width:2;stroke-linecap:square;stroke-opacity:0.65"/>
+      <line x1="2284" y1="1777" x2="2284" y2="1786" style="stroke:#F0A500;stroke-width:2;stroke-linecap:square;stroke-opacity:0.65"/>
+
+      <!-- Sticker wordmark -->
+      <text x="2284" y="1810" text-anchor="middle"
+            style="font-family:'Arial Black','Impact',sans-serif;font-size:24px;font-weight:900;fill:#FAFAF7;letter-spacing:-0.5px">KSBCSP</text>
+
+      <!-- Tagline + flanking rules -->
+      <line x1="2205" y1="1822" x2="2232" y2="1822" style="stroke:#F0A500;stroke-width:1;stroke-opacity:0.5"/>
+      <text x="2284" y="1826" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#F0A500;letter-spacing:3px;fill-opacity:0.88">ASSET LAB</text>
+      <line x1="2336" y1="1822" x2="2363" y2="1822" style="stroke:#F0A500;stroke-width:1;stroke-opacity:0.5"/>
+
+      <!-- Club URL -->
+      <text x="2284" y="1841" text-anchor="middle"
+            style="font-family:'Courier New',monospace;font-size:9px;fill:#00C4E8;fill-opacity:0.45;letter-spacing:2px">ksbcsp.club</text>
+
+      <text x="1848" y="1878"
+            style="font-family:'Courier New',monospace;font-size:10px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:1px">Hex die-cut · 4 mm white bleed · Full icon + wordmark · Print at 60 mm.</text>
+    </g>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 09 · FOOTER
+       y = 1900 → 1980
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="09 · Footer" inkscape:groupmode="layer" id="lyr_footer">
+
+    <rect x="0" y="1900" width="2800" height="80" style="fill:#F0EEE8;stroke:none"/>
+
+    <text id="footer_left" x="80" y="1945"
+          inkscape:label="★ EDIT: Footer left text"
+          style="font-family:'Courier New',monospace;font-size:12px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:2px">KSBCSP Visual Identity System · v1.0 · Spring 2025 · Internal use only</text>
+
+    <!-- Centre pill -->
+    <rect x="1278" y="1924" width="244" height="32" style="fill:#0D0F14"/>
+    <text id="footer_pill" x="1400" y="1944" text-anchor="middle"
+          inkscape:label="★ EDIT: Footer centre badge"
+          style="font-family:'Arial Black',sans-serif;font-size:12px;font-weight:900;fill:#FAFAF7;letter-spacing:2.5px;text-transform:uppercase">KSBCSP</text>
+
+    <text id="footer_right" x="2720" y="1945" text-anchor="end"
+          inkscape:label="★ EDIT: Footer right URL"
+          style="font-family:'Courier New',monospace;font-size:12px;fill:#0D0F14;fill-opacity:0.32;letter-spacing:2px">ksbcsp.club / @ksbcsp</text>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       LAYER 99 · NOTES — HIDE BEFORE EXPORT
+       Margin guides, section labels, canvas annotation.
+  ═══════════════════════════════════════════════════════ -->
+  <g inkscape:label="99 · Notes — HIDE BEFORE EXPORT"
+     inkscape:groupmode="layer" id="lyr_notes"
+     style="display:inline">
+
+    <!-- 80px margin box -->
+    <rect x="80" y="80" width="2640" height="1820"
+          style="fill:none;stroke:#FF4560;stroke-width:0.8;stroke-opacity:0.15;stroke-dasharray:6,8"/>
+
+    <!-- Centre axis -->
+    <line x1="1400" y1="0" x2="1400" y2="1980"
+          style="stroke:#FF4560;stroke-width:0.5;stroke-opacity:0.1;stroke-dasharray:5,10"/>
+
+    <!-- Section y-markers (right edge) -->
+    <text x="2790" y="283" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4)">y=280 Logo Suite</text>
+    <text x="2790" y="623" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4)">y=620 Color</text>
+    <text x="2790" y="893" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4)">y=890 Typography</text>
+    <text x="2790" y="1223" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4)">y=1220 Space / Do-Dont</text>
+    <text x="2790" y="1543" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4)">y=1540 Applications</text>
+    <text x="2790" y="1903" text-anchor="end"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.4)">y=1900 Footer</text>
+
+    <!-- Canvas info -->
+    <text x="1400" y="1976" text-anchor="middle"
+          style="font-family:'Courier New',monospace;font-size:8px;fill:rgba(255,69,96,0.3);letter-spacing:2px">KSBCSP BRAND GUIDE v1.0 · 2800×1980 px · A2 LANDSCAPE · HIDE THIS LAYER BEFORE EXPORT</text>
+
+  </g>
+
+</svg>
